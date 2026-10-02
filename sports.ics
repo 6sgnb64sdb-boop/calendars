@@ -7,4 +7,583 @@ X-WR-CALNAME:Sandy's Sports Watching Calendar
 X-WR-TIMEZONE:Australia/Brisbane
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:cycling-euro-men-road-2026@sandy-calendars
+DTSTAMP:20261002T195500Z
+DTSTART;VALUE=DATE:20261004
+DTEND;VALUE=DATE:20261005
+SUMMARY:Cycling: European Championships – Men's Road Race
+DESCRIPTION:Major men's professional road cycling. Australian broadcast: check SBS/SBS On Demand and official event coverage.
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:eng-cro-2026-unl-a3@sandy-calendars
+DTSTAMP:20261002T195500Z
+DTSTART;TZID=Australia/Brisbane:20261004T020000
+DTEND;TZID=Australia/Brisbane:20261004T040000
+SUMMARY:Football: Croatia v England
+LOCATION:Stadion HNK Rijeka
+DESCRIPTION:UEFA Nations League. Australia: beIN SPORTS CONNECT\; beIN via Prime Video/Fetch.
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:mlb-alds-cle-cws-g1-2026@sandy-calendars
+DTSTAMP:20261002T195500Z
+DTSTART;TZID=Australia/Brisbane:20261004T030000
+DTEND;TZID=Australia/Brisbane:20261004T063000
+SUMMARY:MLB ALDS Game 1: Guardians v White Sox
+LOCATION:Progressive Field\, Cleveland
+DESCRIPTION:Postseason. Australia: MLB.TV\; ESPN via Disney+/Kayo/Foxtel when selected.
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:nhl-mtl-pit-2026@sandy-calendars
+DTSTAMP:20261002T195500Z
+DTSTART;TZID=Australia/Brisbane:20261004T090000
+DTEND;TZID=Australia/Brisbane:20261004T114500
+SUMMARY:NHL: Montreal Canadiens @ Pittsburgh Penguins
+LOCATION:PPG Paints Arena
+DESCRIPTION:Australia: ESPN/NHL coverage via Disney+\; also ESPN via Kayo/Foxtel. Check 9Go!/9Now for weekly free-to-air selection.
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:nfl-gb-tb-2026-w4@sandy-calendars
+DTSTAMP:20261002T195500Z
+DTSTART;TZID=Australia/Brisbane:20261005T030000
+DTEND;TZID=Australia/Brisbane:20261005T063000
+SUMMARY:NFL: Green Bay Packers @ Tampa Bay Buccaneers
+LOCATION:Raymond James Stadium
+DESCRIPTION:Australia: NFL Game Pass via DAZN\; ESPN via Disney+/Kayo/Foxtel for selected games.
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:mlb-alds-cle-cws-g2-2026@sandy-calendars
+DTSTAMP:20261002T195500Z
+DTSTART;TZID=Australia/Brisbane:20261006T070000
+DTEND;TZID=Australia/Brisbane:20261006T103000
+SUMMARY:MLB ALDS Game 2: Guardians v White Sox
+LOCATION:Progressive Field\, Cleveland
+DESCRIPTION:Postseason. Australia: MLB.TV\; ESPN via Disney+/Kayo/Foxtel when selected.
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:nhl-wpg-pit-2026@sandy-calendars
+DTSTAMP:20261002T195500Z
+DTSTART;TZID=Australia/Brisbane:20261006T093000
+DTEND;TZID=Australia/Brisbane:20261006T121500
+SUMMARY:NHL: Winnipeg Jets @ Pittsburgh Penguins
+LOCATION:PPG Paints Arena
+DESCRIPTION:Australia: ESPN/NHL coverage via Disney+\; also ESPN via Kayo/Foxtel. Check 9Go!/9Now for weekly free-to-air selection.
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:eng-cze-2026-unl-a3@sandy-calendars
+DTSTAMP:20261002T195500Z
+DTSTART;TZID=Australia/Brisbane:20261007T044500
+DTEND;TZID=Australia/Brisbane:20261007T064500
+SUMMARY:Football: England v Czechia
+LOCATION:Wembley Stadium
+DESCRIPTION:UEFA Nations League. Australia: beIN SPORTS CONNECT\; beIN via Prime Video/Fetch.
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:mlb-alds-cle-cws-g3-2026@sandy-calendars
+DTSTAMP:20261002T195500Z
+DTSTART;TZID=Australia/Brisbane:20261008T060000
+DTEND;TZID=Australia/Brisbane:20261008T093000
+SUMMARY:MLB ALDS Game 3: Guardians v White Sox
+LOCATION:Rate Field\, Chicago
+DESCRIPTION:Postseason. Australia: MLB.TV\; ESPN via Disney+/Kayo/Foxtel when selected.
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:nhl-pit-wsh-2026@sandy-calendars
+DTSTAMP:20261002T195500Z
+DTSTART;TZID=Australia/Brisbane:20261008T093000
+DTEND;TZID=Australia/Brisbane:20261008T121500
+SUMMARY:NHL: Pittsburgh Penguins @ Washington Capitals
+LOCATION:Capital One Arena
+DESCRIPTION:Australia: ESPN/NHL coverage via Disney+\; also ESPN via Kayo/Foxtel. Check 9Go!/9Now for weekly free-to-air selection.
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:mlb-alds-cle-cws-g4-2026@sandy-calendars
+DTSTAMP:20261002T195500Z
+DTSTART;TZID=Australia/Brisbane:20261009T070000
+DTEND;TZID=Australia/Brisbane:20261009T103000
+SUMMARY:MLB ALDS Game 4 (if necessary): Guardians v White Sox
+LOCATION:Rate Field\, Chicago
+DESCRIPTION:IF NECESSARY\; time may move to 8pm ET. Australia: MLB.TV\; ESPN via Disney+/Kayo/Foxtel when selected.
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
+UID:cycling-lombardia-2026@sandy-calendars
+DTSTAMP:20261002T195500Z
+DTSTART;VALUE=DATE:20261010
+DTEND;VALUE=DATE:20261011
+SUMMARY:Cycling: Il Lombardia
+LOCATION:Bergamo\, Italy
+DESCRIPTION:UCI WorldTour Monument. Australia: SBS On Demand.
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:nhl-pit-cbj-2026@sandy-calendars
+DTSTAMP:20261002T195500Z
+DTSTART;TZID=Australia/Brisbane:20261010T090000
+DTEND;TZID=Australia/Brisbane:20261010T114500
+SUMMARY:NHL: Pittsburgh Penguins @ Columbus Blue Jackets
+LOCATION:Nationwide Arena
+DESCRIPTION:Australia: ESPN/NHL coverage via Disney+\; also ESPN via Kayo/Foxtel. Check 9Go!/9Now for weekly free-to-air selection.
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:pl-ars-lee-2026-10-10@sandy-calendars
+DTSTAMP:20261002T195500Z
+DTSTART;TZID=Australia/Brisbane:20261010T213000
+DTEND;TZID=Australia/Brisbane:20261010T233000
+SUMMARY:Premier League: Arsenal v Leeds United
+LOCATION:Emirates Stadium
+DESCRIPTION:Australia: Stan Sport.
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:pl-mun-tot-2026-10-10@sandy-calendars
+DTSTAMP:20261002T195500Z
+DTSTART;TZID=Australia/Brisbane:20261011T013000
+DTEND;TZID=Australia/Brisbane:20261011T033000
+SUMMARY:Premier League: Manchester United v Tottenham
+LOCATION:Old Trafford
+DESCRIPTION:Australia: Stan Sport.
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:mlb-alds-cle-cws-g5-2026@sandy-calendars
+DTSTAMP:20261002T195500Z
+DTSTART;TZID=Australia/Brisbane:20261011T070000
+DTEND;TZID=Australia/Brisbane:20261011T103000
+SUMMARY:MLB ALDS Game 5 (if necessary): White Sox v Guardians
+LOCATION:Progressive Field\, Cleveland
+DESCRIPTION:IF NECESSARY\; time may move to 8pm ET. Australia: MLB.TV\; ESPN via Disney+/Kayo/Foxtel when selected.
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
+UID:nhl-dal-pit-2026@sandy-calendars
+DTSTAMP:20261002T195500Z
+DTSTART;TZID=Australia/Brisbane:20261011T090000
+DTEND;TZID=Australia/Brisbane:20261011T114500
+SUMMARY:NHL: Dallas Stars @ Pittsburgh Penguins
+LOCATION:PPG Paints Arena
+DESCRIPTION:Australia: ESPN/NHL coverage via Disney+\; also ESPN via Kayo/Foxtel. Check 9Go!/9Now for weekly free-to-air selection.
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:mls-aus-nsh-2026-10-10@sandy-calendars
+DTSTAMP:20261002T195500Z
+DTSTART;TZID=Australia/Brisbane:20261011T103000
+DTEND;TZID=Australia/Brisbane:20261011T123000
+SUMMARY:MLS: Austin FC v Nashville SC
+LOCATION:Q2 Stadium\, Austin
+DESCRIPTION:Australia: Apple TV.
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:aflw-haw-bris-2026-r9@sandy-calendars
+DTSTAMP:20261002T195500Z
+DTSTART;TZID=Australia/Brisbane:20261011T120500
+DTEND;TZID=Australia/Brisbane:20261011T143500
+SUMMARY:AFLW: Hawthorn v Brisbane Lions
+LOCATION:Kennedy Community Centre\, Dingley Village
+DESCRIPTION:Round 9. Australia: Seven/7plus\; Fox Footy/Kayo/Binge availability may also apply.
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:marathon-chicago-2026@sandy-calendars
+DTSTAMP:20261002T195500Z
+DTSTART;TZID=Australia/Brisbane:20261011T223000
+DTEND;TZID=Australia/Brisbane:20261012T043000
+SUMMARY:Athletics: Chicago Marathon
+LOCATION:Chicago\, Illinois
+DESCRIPTION:World Marathon Major. Australian broadcast availability to be confirmed.
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:nfl-gb-chi-2026-w5@sandy-calendars
+DTSTAMP:20261002T195500Z
+DTSTART;TZID=Australia/Brisbane:20261012T030000
+DTEND;TZID=Australia/Brisbane:20261012T063000
+SUMMARY:NFL: Chicago Bears @ Green Bay Packers
+LOCATION:Lambeau Field
+DESCRIPTION:Australia: NFL Game Pass via DAZN\; ESPN via Disney+/Kayo/Foxtel for selected games.
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:lig1-tro-om-2026-10-11@sandy-calendars
+DTSTAMP:20261002T195500Z
+DTSTART;TZID=Australia/Brisbane:20261012T044500
+DTEND;TZID=Australia/Brisbane:20261012T064500
+SUMMARY:Ligue 1: Troyes v Marseille
+LOCATION:Stade de l'Aube
+DESCRIPTION:Tracked because Patrick Beach plays for Troyes. Australia: beIN SPORTS CONNECT.
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:cycling-guangxi-2026-s1@sandy-calendars
+DTSTAMP:20261002T195500Z
+DTSTART;VALUE=DATE:20261013
+DTEND;VALUE=DATE:20261014
+SUMMARY:Cycling: Tour of Guangxi – Stage 1
+LOCATION:Chongzuo → Chongzuo
+DESCRIPTION:UCI WorldTour. Australian broadcast availability to be confirmed.
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:cycling-guangxi-2026-s2@sandy-calendars
+DTSTAMP:20261002T195500Z
+DTSTART;VALUE=DATE:20261014
+DTEND;VALUE=DATE:20261015
+SUMMARY:Cycling: Tour of Guangxi – Stage 2
+LOCATION:Chongzuo → Jingxi
+DESCRIPTION:UCI WorldTour. Australian broadcast availability to be confirmed.
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:ucl-atm-mun-2026-10-13@sandy-calendars
+DTSTAMP:20261002T195500Z
+DTSTART;TZID=Australia/Brisbane:20261014T030000
+DTEND;TZID=Australia/Brisbane:20261014T050000
+SUMMARY:Champions League: Atlético Madrid v Manchester United
+LOCATION:Metropolitano\, Madrid
+DESCRIPTION:Australia: Stan Sport.
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:nhl-pit-chi-2026@sandy-calendars
+DTSTAMP:20261002T195500Z
+DTSTART;TZID=Australia/Brisbane:20261014T100000
+DTEND;TZID=Australia/Brisbane:20261014T124500
+SUMMARY:NHL: Pittsburgh Penguins @ Chicago Blackhawks
+LOCATION:United Center
+DESCRIPTION:Australia: ESPN/NHL coverage via Disney+\; also ESPN via Kayo/Foxtel. Check 9Go!/9Now for weekly free-to-air selection.
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:cycling-guangxi-2026-s3@sandy-calendars
+DTSTAMP:20261002T195500Z
+DTSTART;VALUE=DATE:20261015
+DTEND;VALUE=DATE:20261016
+SUMMARY:Cycling: Tour of Guangxi – Stage 3
+LOCATION:Jingxi → Bama
+DESCRIPTION:UCI WorldTour. Australian broadcast availability to be confirmed.
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:mls-nsh-skc-2026-10-14@sandy-calendars
+DTSTAMP:20261002T195500Z
+DTSTART;TZID=Australia/Brisbane:20261015T103000
+DTEND;TZID=Australia/Brisbane:20261015T123000
+SUMMARY:MLS: Nashville SC v Sporting Kansas City
+LOCATION:GEODIS Park
+DESCRIPTION:Australia: Apple TV.
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:cycling-guangxi-2026-s4@sandy-calendars
+DTSTAMP:20261002T195500Z
+DTSTART;VALUE=DATE:20261016
+DTEND;VALUE=DATE:20261017
+SUMMARY:Cycling: Tour of Guangxi – Stage 4
+LOCATION:Bama → Tian’e
+DESCRIPTION:UCI WorldTour. Australian broadcast availability to be confirmed.
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:cycling-guangxi-2026-s5@sandy-calendars
+DTSTAMP:20261002T195500Z
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261018
+SUMMARY:Cycling: Tour of Guangxi – Stage 5
+LOCATION:Jinchengjiang → Yizhou
+DESCRIPTION:UCI WorldTour. Australian broadcast availability to be confirmed.
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:nhl-pit-col-2026@sandy-calendars
+DTSTAMP:20261002T195500Z
+DTSTART;TZID=Australia/Brisbane:20261017T110000
+DTEND;TZID=Australia/Brisbane:20261017T134500
+SUMMARY:NHL: Pittsburgh Penguins @ Colorado Avalanche
+LOCATION:Ball Arena
+DESCRIPTION:Australia: ESPN/NHL coverage via Disney+\; also ESPN via Kayo/Foxtel. Check 9Go!/9Now for weekly free-to-air selection.
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:cycling-guangxi-2026-s6@sandy-calendars
+DTSTAMP:20261002T195500Z
+DTSTART;VALUE=DATE:20261018
+DTEND;VALUE=DATE:20261019
+SUMMARY:Cycling: Tour of Guangxi – Stage 6
+LOCATION:Yizhou → Mashan Nongla Scenic Spot
+DESCRIPTION:UCI WorldTour. Australian broadcast availability to be confirmed.
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:lig1-tro-lens-2026-10-17@sandy-calendars
+DTSTAMP:20261002T195500Z
+DTSTART;TZID=Australia/Brisbane:20261018T044500
+DTEND;TZID=Australia/Brisbane:20261018T064500
+SUMMARY:Ligue 1: Troyes v Lens
+LOCATION:Stade de l'Aube
+DESCRIPTION:Tracked because Patrick Beach plays for Troyes. Australia: beIN SPORTS CONNECT.
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:nhl-pit-vgk-2026@sandy-calendars
+DTSTAMP:20261002T195500Z
+DTSTART;TZID=Australia/Brisbane:20261018T120000
+DTEND;TZID=Australia/Brisbane:20261018T144500
+SUMMARY:NHL: Pittsburgh Penguins @ Vegas Golden Knights
+LOCATION:T-Mobile Arena
+DESCRIPTION:Australia: ESPN/NHL coverage via Disney+\; also ESPN via Kayo/Foxtel. Check 9Go!/9Now for weekly free-to-air selection.
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:mls-sj-nsh-2026-10-17@sandy-calendars
+DTSTAMP:20261002T195500Z
+DTSTART;TZID=Australia/Brisbane:20261018T123000
+DTEND;TZID=Australia/Brisbane:20261018T143000
+SUMMARY:MLS: San Jose Earthquakes v Nashville SC
+LOCATION:San Jose
+DESCRIPTION:Australia: Apple TV.
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:aflw-gws-haw-2026-r10@sandy-calendars
+DTSTAMP:20261002T195500Z
+DTSTART;TZID=Australia/Brisbane:20261018T133500
+DTEND;TZID=Australia/Brisbane:20261018T160500
+SUMMARY:AFLW: GWS Giants v Hawthorn
+LOCATION:Henson Park\, Sydney
+DESCRIPTION:Round 10. Australia: Fox Footy/Kayo/Binge.
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:marathon-amsterdam-2026@sandy-calendars
+DTSTAMP:20261002T195500Z
+DTSTART;TZID=Australia/Brisbane:20261018T170000
+DTEND;TZID=Australia/Brisbane:20261018T230000
+SUMMARY:Athletics: Amsterdam Marathon
+LOCATION:Amsterdam\, Netherlands
+DESCRIPTION:World Athletics Platinum Label marathon. Australian broadcast availability to be confirmed.
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:pl-lee-mun-2026-10-18@sandy-calendars
+DTSTAMP:20261002T195500Z
+DTSTART;TZID=Australia/Brisbane:20261018T230000
+DTEND;TZID=Australia/Brisbane:20261019T010000
+SUMMARY:Premier League: Leeds United v Manchester United
+LOCATION:Elland Road
+DESCRIPTION:Australia: Stan Sport.
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:nfl-dal-gb-2026-w6@sandy-calendars
+DTSTAMP:20261002T195500Z
+DTSTART;TZID=Australia/Brisbane:20261019T102000
+DTEND;TZID=Australia/Brisbane:20261019T135000
+SUMMARY:NFL: Dallas Cowboys @ Green Bay Packers
+LOCATION:Lambeau Field
+DESCRIPTION:Australia: NFL Game Pass via DAZN\; ESPN via Disney+/Kayo/Foxtel for selected games.
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:nhl-pit-uta-2026@sandy-calendars
+DTSTAMP:20261002T195500Z
+DTSTART;TZID=Australia/Brisbane:20261020T110000
+DTEND;TZID=Australia/Brisbane:20261020T134500
+SUMMARY:NHL: Pittsburgh Penguins @ Utah Mammoth
+LOCATION:Utah
+DESCRIPTION:Australia: ESPN/NHL coverage via Disney+\; also ESPN via Kayo/Foxtel. Check 9Go!/9Now for weekly free-to-air selection.
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:ucl-com-mun-2026-10-21@sandy-calendars
+DTSTAMP:20261002T195500Z
+DTSTART;TZID=Australia/Brisbane:20261022T004500
+DTEND;TZID=Australia/Brisbane:20261022T024500
+SUMMARY:Champions League: Como v Manchester United
+LOCATION:Stadio Giuseppe Sinigaglia
+DESCRIPTION:Australia: Stan Sport.
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:nhl-fla-pit-2026@sandy-calendars
+DTSTAMP:20261002T195500Z
+DTSTART;TZID=Australia/Brisbane:20261023T090000
+DTEND;TZID=Australia/Brisbane:20261023T114500
+SUMMARY:NHL: Florida Panthers @ Pittsburgh Penguins
+LOCATION:PPG Paints Arena
+DESCRIPTION:Australia: ESPN/NHL coverage via Disney+\; also ESPN via Kayo/Foxtel. Check 9Go!/9Now for weekly free-to-air selection.
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:lig1-tou-tro-2026-10-24@sandy-calendars
+DTSTAMP:20261002T195500Z
+DTSTART;TZID=Australia/Brisbane:20261025T011500
+DTEND;TZID=Australia/Brisbane:20261025T031500
+SUMMARY:Ligue 1: Toulouse v Troyes
+LOCATION:Toulouse
+DESCRIPTION:Tracked because Patrick Beach plays for Troyes. Australia: beIN SPORTS CONNECT.
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:nhl-nsh-pit-2026@sandy-calendars
+DTSTAMP:20261002T195500Z
+DTSTART;TZID=Australia/Brisbane:20261025T090000
+DTEND;TZID=Australia/Brisbane:20261025T114500
+SUMMARY:NHL: Nashville Predators @ Pittsburgh Penguins
+LOCATION:PPG Paints Arena
+DESCRIPTION:Australia: ESPN/NHL coverage via Disney+\; also ESPN via Kayo/Foxtel. Check 9Go!/9Now for weekly free-to-air selection.
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:aflw-haw-ess-2026-r11@sandy-calendars
+DTSTAMP:20261002T195500Z
+DTSTART;TZID=Australia/Brisbane:20261025T140500
+DTEND;TZID=Australia/Brisbane:20261025T163500
+SUMMARY:AFLW: Hawthorn v Essendon
+LOCATION:Kennedy Community Centre\, Dingley Village
+DESCRIPTION:Round 11. Australia: Seven/7plus\; Fox Footy/Kayo/Binge availability may also apply.
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:pl-mun-bou-2026-10-25@sandy-calendars
+DTSTAMP:20261002T195500Z
+DTSTART;TZID=Australia/Brisbane:20261026T000000
+DTEND;TZID=Australia/Brisbane:20261026T020000
+SUMMARY:Premier League: Manchester United v Bournemouth
+LOCATION:Old Trafford
+DESCRIPTION:Australia: Stan Sport.
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:pl-sun-lee-2026-10-25@sandy-calendars
+DTSTAMP:20261002T195500Z
+DTSTART;TZID=Australia/Brisbane:20261026T023000
+DTEND;TZID=Australia/Brisbane:20261026T043000
+SUMMARY:Premier League: Sunderland v Leeds United
+LOCATION:Stadium of Light
+DESCRIPTION:Australia: Stan Sport.
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:nfl-gb-det-2026-w7@sandy-calendars
+DTSTAMP:20261002T195500Z
+DTSTART;TZID=Australia/Brisbane:20261026T062500
+DTEND;TZID=Australia/Brisbane:20261026T095500
+SUMMARY:NFL: Green Bay Packers @ Detroit Lions
+LOCATION:Ford Field
+DESCRIPTION:Australia: NFL Game Pass via DAZN\; ESPN via Disney+/Kayo/Foxtel for selected games.
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:mls-nsh-phi-2026-10-28@sandy-calendars
+DTSTAMP:20261002T195500Z
+DTSTART;TZID=Australia/Brisbane:20261029T103000
+DTEND;TZID=Australia/Brisbane:20261029T123000
+SUMMARY:MLS: Nashville SC v Philadelphia Union
+LOCATION:GEODIS Park
+DESCRIPTION:Australia: Apple TV.
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:nhl-uta-pit-2026@sandy-calendars
+DTSTAMP:20261002T195500Z
+DTSTART;TZID=Australia/Brisbane:20261030T090000
+DTEND;TZID=Australia/Brisbane:20261030T114500
+SUMMARY:NHL: Utah Mammoth @ Pittsburgh Penguins
+LOCATION:PPG Paints Arena
+DESCRIPTION:Australia: ESPN/NHL coverage via Disney+\; also ESPN via Kayo/Foxtel. Check 9Go!/9Now for weekly free-to-air selection.
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:nfl-car-gb-2026-w8@sandy-calendars
+DTSTAMP:20261002T195500Z
+DTSTART;TZID=Australia/Brisbane:20261030T101500
+DTEND;TZID=Australia/Brisbane:20261030T134500
+SUMMARY:NFL: Carolina Panthers @ Green Bay Packers
+LOCATION:Lambeau Field
+DESCRIPTION:Australia: NFL Game Pass via DAZN\; ESPN via Disney+/Kayo/Foxtel for selected games.
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:aflw-wce-haw-2026-r12@sandy-calendars
+DTSTAMP:20261002T195500Z
+DTSTART;TZID=Australia/Brisbane:20261031T181500
+DTEND;TZID=Australia/Brisbane:20261031T204500
+SUMMARY:AFLW: West Coast Eagles v Hawthorn
+LOCATION:Sullivan Logistics Stadium\, Perth
+DESCRIPTION:Round 12. Australia: Seven/7plus\; Fox Footy/Kayo/Binge availability may also apply.
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:pl-che-mun-2026-10-31@sandy-calendars
+DTSTAMP:20261002T195500Z
+DTSTART;TZID=Australia/Brisbane:20261031T223000
+DTEND;TZID=Australia/Brisbane:20261101T003000
+SUMMARY:Premier League: Chelsea v Manchester United
+LOCATION:Stamford Bridge
+DESCRIPTION:Australia: Stan Sport.
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:pl-bou-lee-2026-10-31@sandy-calendars
+DTSTAMP:20261002T195500Z
+DTSTART;TZID=Australia/Brisbane:20261101T010000
+DTEND;TZID=Australia/Brisbane:20261101T030000
+SUMMARY:Premier League: Bournemouth v Leeds United
+LOCATION:Vitality Stadium
+DESCRIPTION:Australia: Stan Sport.
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:lig1-tro-lem-2026-10-31@sandy-calendars
+DTSTAMP:20261002T195500Z
+DTSTART;TZID=Australia/Brisbane:20261101T054500
+DTEND;TZID=Australia/Brisbane:20261101T074500
+SUMMARY:Ligue 1: Troyes v Le Mans
+LOCATION:Stade de l'Aube
+DESCRIPTION:Tracked because Patrick Beach plays for Troyes. Australia: beIN SPORTS CONNECT.
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:nhl-pit-mtl-2026@sandy-calendars
+DTSTAMP:20261002T195500Z
+DTSTART;TZID=Australia/Brisbane:20261101T090000
+DTEND;TZID=Australia/Brisbane:20261101T114500
+SUMMARY:NHL: Pittsburgh Penguins @ Montreal Canadiens
+LOCATION:Montreal
+DESCRIPTION:Australia: ESPN/NHL coverage via Disney+\; also ESPN via Kayo/Foxtel. Check 9Go!/9Now for weekly free-to-air selection.
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:marathon-nyc-2026@sandy-calendars
+DTSTAMP:20261002T195500Z
+DTSTART;TZID=Australia/Brisbane:20261101T230000
+DTEND;TZID=Australia/Brisbane:20261102T050000
+SUMMARY:Athletics: New York City Marathon
+LOCATION:New York City
+DESCRIPTION:World Marathon Major. ESPN2 coverage in the US\; Australian broadcast partner currently TBC.
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:mls-nsh-rbny-2026-11-01@sandy-calendars
+DTSTAMP:20261002T195500Z
+DTSTART;TZID=Australia/Brisbane:20261102T073000
+DTEND;TZID=Australia/Brisbane:20261102T093000
+SUMMARY:MLS: Nashville SC v New York Red Bulls
+LOCATION:GEODIS Park
+DESCRIPTION:Australia: Apple TV. Fixture listing currently shows Nov 1.
+STATUS:CONFIRMED
+END:VEVENT
 END:VCALENDAR
