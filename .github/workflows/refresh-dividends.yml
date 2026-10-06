@@ -1,0 +1,33 @@
+name: Refresh dividend calendar
+
+on:
+  schedule:
+    # 06:15 Australia/Brisbane (UTC+10), every day
+    - cron: "15 20 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements-dividends.txt
+      - name: Check all portfolio holdings and rebuild feed
+        run: python update_dividends.py
+      - name: Commit calendar changes
+        run: |
+          if git diff --quiet -- dividends.ics; then
+            echo "No new dividend dates."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add dividends.ics
+          git commit -m "Auto-refresh dividend calendar"
+          git push
