@@ -208,11 +208,36 @@ def road_calendar():
     COUNTS["Men road feed diagnostics"] = stats
     print("Men road feed diagnostics:", json.dumps(stats, sort_keys=True))
 
+def uci_championship_discovery():
+    """Check official UCI calendar reachability; never infer dates from page text.
+
+    The UCI calendar is not an iCalendar feed. Until an independently verified,
+    structured championship endpoint is available, record diagnostics only.
+    This deliberately does not create events or alter seeded championships.
+    """
+    url = "https://www.uci.org/calendar/all/2jnxYAuvjgttyHi6YQ94EJ"
+    request = urllib.request.Request(url, headers={
+        "User-Agent": "Mozilla/5.0 (compatible; SandySportsCalendar/1.0)",
+        "Accept": "text/html"})
+    with urllib.request.urlopen(request, timeout=25) as response:
+        body = response.read(2_000_000).decode("utf-8", errors="replace")
+    if not body or "<html" not in body.lower():
+        raise ValueError("Official UCI calendar did not return a valid HTML page")
+    # Page reachability is not proof that event dates are extractable.
+    COUNTS["UCI official calendar discovery"] = {
+        "reachable": True,
+        "structured_event_import": False,
+        "events_added": 0,
+        "note": "Official site checked; no unverified championship dates imported"
+    }
+    print("UCI official calendar reachable; structured import not yet enabled.")
+
 def main():
     source("NHL Pittsburgh", nhl)
     source("MLB Cleveland", mlb)
     source("Hawthorn AFL/AFLW", hawthorn)
     source("UCI cycling championships", cycling)
+    source("UCI official calendar discovery", uci_championship_discovery)
     source("Men road calendar", road_calendar)
     for league, (label, followed) in SOCCER.items():
         source("Football " + league, lambda l=league, n=label, t=followed: soccer(l, n, t))
