@@ -81,6 +81,8 @@ SOCCER = {
     "fra.2": ("Ligue 2", ("Troyes",)),
     "uefa.nations": ("UEFA Nations League", ("England",)),
     "fifa.friendly": ("International Friendlies", ("England", "Australia")),
+    "fifa.world": ("FIFA World Cup", ("England", "Australia")),
+    "afc.asian.cup": ("AFC Asian Cup", ("Australia",)),
 }
 # Exact aliases avoid matching youth and women's teams.
 ALIASES = {"Leeds United": ("leeds united",), "Manchester United": ("manchester united", "man united"),
@@ -88,8 +90,9 @@ ALIASES = {"Leeds United": ("leeds united",), "Manchester United": ("manchester 
            "England": ("england",), "Australia": ("australia",)}
 
 def soccer(league, label, followed):
-    # ESPN accepts individual dates; scan the rolling 14-day football window.
-    for day_offset in range(14):
+    # National-team fixtures can be announced well ahead of club matches.
+    days = 45 if league in ("uefa.nations", "fifa.friendly", "fifa.world", "afc.asian.cup") else 14
+    for day_offset in range(days):
         day = (TODAY + dt.timedelta(days=day_offset)).strftime("%Y%m%d")
         url = f"https://site.api.espn.com/apis/site/v2/sports/soccer/{league}/scoreboard?dates={day}&limit=500"
         data = fetch(url)
