@@ -1,6 +1,6 @@
 {
   "source": "https://www.uci.org/calendar/all/2jnxYAuvjgttyHi6YQ94EJ",
-  "note": "Verified date-only championship seed, including 2027 multi-discipline umbrella. Not a live UCI fixture feed; specific sessions require verified official schedules.",
+  "note": "Verified championship dates, including official 2027 MTB discipline sessions. Static source until structured official import is proven; no unverified start times.",
   "events": [
     {
       "uid": "uci-pump-track-worlds-2026",
@@ -33,6 +33,70 @@
       "end": "2027-09-06",
       "location": "Haute-Savoie Mont-Blanc, France",
       "description": "Official UCI event window: 24 August–5 September 2027, spanning 20 World Championships. All-day umbrella reminder only; discipline sessions and Australian broadcast information to be added when verified. Source: https://www.uci.org/event-hub/2027-uci-cycling-world-championships/3eK8O5bGa5sfvNlGaTPCb3"
+    },
+    {
+      "uid": "uci-2027-mtb-2027-08-26",
+      "title": "UCI Worlds 2027: Mountain Bike Downhill – Junior Men and Women",
+      "start": "2027-08-26",
+      "end": "2027-08-27",
+      "location": "Haute-Savoie, France",
+      "description": "Official UCI MTB competition details list these races on this date. All-day until session start times are published. Source: https://www.uci.org/competition-details/2027/MTB/79857"
+    },
+    {
+      "uid": "uci-2027-mtb-2027-08-27",
+      "title": "UCI Worlds 2027: Mountain Bike Downhill – Elite Men and Women",
+      "start": "2027-08-27",
+      "end": "2027-08-28",
+      "location": "Haute-Savoie, France",
+      "description": "Official UCI MTB competition details list these races on this date. All-day until session start times are published. Source: https://www.uci.org/competition-details/2027/MTB/79857"
+    },
+    {
+      "uid": "uci-2027-mtb-2027-08-30",
+      "title": "UCI Worlds 2027: Mountain Bike Cross-country Team Relay – Mixed Elite",
+      "start": "2027-08-30",
+      "end": "2027-08-31",
+      "location": "Haute-Savoie, France",
+      "description": "Official UCI MTB competition details list these races on this date. All-day until session start times are published. Source: https://www.uci.org/competition-details/2027/MTB/79857"
+    },
+    {
+      "uid": "uci-2027-mtb-2027-08-31",
+      "title": "UCI Worlds 2027: Mountain Bike Short Track – Elite and Under-23 Men and Women",
+      "start": "2027-08-31",
+      "end": "2027-09-01",
+      "location": "Haute-Savoie, France",
+      "description": "Official UCI MTB competition details list these races on this date. All-day until session start times are published. Source: https://www.uci.org/competition-details/2027/MTB/79857"
+    },
+    {
+      "uid": "uci-2027-mtb-2027-09-01",
+      "title": "UCI Worlds 2027: E-MTB Cross-country – Elite Men and Women",
+      "start": "2027-09-01",
+      "end": "2027-09-02",
+      "location": "Haute-Savoie, France",
+      "description": "Official UCI MTB competition details list these races on this date. All-day until session start times are published. Source: https://www.uci.org/competition-details/2027/MTB/79857"
+    },
+    {
+      "uid": "uci-2027-mtb-2027-09-02",
+      "title": "UCI Worlds 2027: Mountain Bike Olympic Cross-country – Women Elite and Men Under-23",
+      "start": "2027-09-02",
+      "end": "2027-09-03",
+      "location": "Haute-Savoie, France",
+      "description": "Official UCI MTB competition details list these races on this date. All-day until session start times are published. Source: https://www.uci.org/competition-details/2027/MTB/79857"
+    },
+    {
+      "uid": "uci-2027-mtb-2027-09-03",
+      "title": "UCI Worlds 2027: Mountain Bike Olympic Cross-country – Junior Men and Women",
+      "start": "2027-09-03",
+      "end": "2027-09-04",
+      "location": "Haute-Savoie, France",
+      "description": "Official UCI MTB competition details list these races on this date. All-day until session start times are published. Source: https://www.uci.org/competition-details/2027/MTB/79857"
+    },
+    {
+      "uid": "uci-2027-mtb-2027-09-04",
+      "title": "UCI Worlds 2027: Mountain Bike Olympic Cross-country – Men Elite and Women Under-23",
+      "start": "2027-09-04",
+      "end": "2027-09-05",
+      "location": "Haute-Savoie, France",
+      "description": "Official UCI MTB competition details list these races on this date. All-day until session start times are published. Source: https://www.uci.org/competition-details/2027/MTB/79857"
     }
   ]
 }
