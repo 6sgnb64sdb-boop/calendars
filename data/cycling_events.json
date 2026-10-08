@@ -1,6 +1,6 @@
 {
   "source": "https://www.uci.org/calendar/all/2jnxYAuvjgttyHi6YQ94EJ",
-  "note": "Only championships not already represented in sports.ics. Dates are event-level all-day placeholders, not individual sessions. Manual verification required for future changes.",
+  "note": "Verified date-only seed; not yet an automatic UCI API feed. Use the official UCI calendar for corrections.",
   "events": [
     {
       "uid": "uci-pump-track-worlds-2026",
@@ -21,10 +21,10 @@
     {
       "uid": "uci-para-track-worlds-2026",
       "title": "UCI Para-cycling Track World Championships",
-      "start": "2026-10-26",
+      "start": "2026-10-29",
       "end": "2026-11-02",
       "location": "Apeldoorn, Netherlands",
-      "description": "Dates confirmed by UCI. All-day placeholder until individual race/session times are verified. Australian broadcast availability to be confirmed."
+      "description": "UCI calendar lists 29 October–1 November 2026. All-day placeholder; individual sessions and Australian broadcaster not yet confirmed."
     }
   ]
 }
