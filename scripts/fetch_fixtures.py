@@ -77,8 +77,12 @@ SOCCER = {
     "uefa.europa": ("Europa League", ("Leeds United", "Manchester United")),
     "uefa.europa.conf": ("Conference League", ("Leeds United", "Manchester United")),
     "usa.1": ("MLS", ("Nashville SC",)),
+    "usa.open": ("US Open Cup", ("Nashville SC",)),
+    "concacaf.champions": ("Concacaf Champions Cup", ("Nashville SC",)),
+    "concacaf.leagues.cup": ("Leagues Cup", ("Nashville SC",)),
     "fra.1": ("Ligue 1", ("Troyes",)),
     "fra.2": ("Ligue 2", ("Troyes",)),
+    "fra.coupe_de_france": ("Coupe de France", ("Troyes",)),
     "uefa.nations": ("UEFA Nations League", ("England",)),
     "fifa.friendly": ("International Friendlies", ("England", "Australia")),
     "fifa.world": ("FIFA World Cup", ("England", "Australia")),
@@ -91,7 +95,8 @@ ALIASES = {"Leeds United": ("leeds united",), "Manchester United": ("manchester 
 
 def soccer(league, label, followed):
     # National-team fixtures can be announced well ahead of club matches.
-    days = 45 if league in ("uefa.nations", "fifa.friendly", "fifa.world", "afc.asian.cup") else 14
+    cups = ("eng.fa", "eng.league_cup", "fra.coupe_de_france", "usa.open", "concacaf.champions", "concacaf.leagues.cup")
+    days = 45 if league in ("uefa.nations", "fifa.friendly", "fifa.world", "afc.asian.cup") else (30 if league in cups else 14)
     for day_offset in range(days):
         day = (TODAY + dt.timedelta(days=day_offset)).strftime("%Y%m%d")
         url = f"https://site.api.espn.com/apis/site/v2/sports/soccer/{league}/scoreboard?dates={day}&limit=500"
