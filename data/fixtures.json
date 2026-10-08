@@ -185,6 +185,14 @@
       "description": "World Marathon Major. Official race date; all-day until elite start times and Australian broadcast are verified. Source: https://www.baa.org/wp-content/uploads/2026/04/April14-BM26-Media-Guide-Pages_UPDATE-ForOnlineL.pdf"
     },
     {
+      "uid": "ultra-moab-240-2026",
+      "title": "Ultra: Moab 240",
+      "start": "2026-10-09",
+      "end": "2026-10-14",
+      "location": "Moab, Utah, USA",
+      "description": "Multi-day endurance ultramarathon; all-day event covering published race/event window. Follow official organiser for live tracking and streaming; no scores or results. Source: https://www.destinationtrailrun.com/race-calendar/2026-moab-240-adfc8-hkyzr"
+    },
+    {
       "uid": "soccer-eng.1-401879268",
       "title": "Premier League: Arsenal v Leeds United",
       "start": "2026-10-10T11:30:00+00:00",
@@ -265,13 +273,15 @@
       "location": ""
     }
   ],
-  "generated_at": "2026-10-08T22:21:20.827697+00:00",
+  "generated_at": "2026-10-08T22:31:18.792690+00:00",
   "coverage": {
     "NHL Pittsburgh": 12,
     "MLB Cleveland": 2,
     "Hawthorn AFL/AFLW": 2,
     "UCI cycling championships": 5,
     "World Marathon Majors": 2,
+    "Major athletics": 0,
+    "Endurance ultras": 1,
     "Men road feed diagnostics": {
       "feed_events": 290,
       "eligible_races": 38,
