@@ -128,10 +128,28 @@ def hawthorn():
             (dt.datetime.fromisoformat(event["end"].replace("Z", "+00:00")) - start).total_seconds() / 3600,
             event.get("description", ""), event.get("location", ""))
 
+def cycling():
+    """Load UCI-verified event dates not already represented in the calendar.
+
+    Static seed is not a live UCI feed; session times must be verified separately.
+    """
+    payload = json.loads((ROOT / "data" / "cycling_events.json").read_text(encoding="utf-8"))
+    cutoff = TODAY + dt.timedelta(days=45)
+    for event in payload.get("events", []):
+        start_date = dt.date.fromisoformat(event["start"])
+        end_date = dt.date.fromisoformat(event["end"])
+        if end_date < TODAY.date() or start_date > cutoff.date():
+            continue
+        # Calendar publisher supports date-only all-day events; retain stable IDs.
+        EVENTS[event["uid"]] = dict(uid=event["uid"], title=event["title"],
+            start=event["start"], end=event["end"], location=event.get("location", ""),
+            description=event.get("description", ""))
+
 def main():
     source("NHL Pittsburgh", nhl)
     source("MLB Cleveland", mlb)
     source("Hawthorn AFL/AFLW", hawthorn)
+    source("UCI cycling championships", cycling)
     for league, (label, followed) in SOCCER.items():
         source("Football " + league, lambda l=league, n=label, t=followed: soccer(l, n, t))
     # Never replace previously collected source data with an empty response.
