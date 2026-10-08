@@ -235,6 +235,19 @@ def athletics():
             start=event["start"], end=event["end"], location=event.get("location", ""),
             description=event.get("description", ""))
 
+def ultras():
+    """Publish officially verified multi-day endurance ultras from the seed."""
+    payload = json.loads((ROOT / "data" / "ultra_events.json").read_text(encoding="utf-8"))
+    cutoff = TODAY.date() + dt.timedelta(days=45)
+    for event in payload.get("events", []):
+        start_date = dt.date.fromisoformat(event["start"])
+        end_date = dt.date.fromisoformat(event["end"])
+        if end_date < TODAY.date() or start_date > cutoff:
+            continue
+        EVENTS[event["uid"]] = dict(uid=event["uid"], title=event["title"],
+            start=event["start"], end=event["end"], location=event.get("location", ""),
+            description=event.get("description", ""))
+
 def main():
     source("NHL Pittsburgh", nhl)
     source("MLB Cleveland", mlb)
@@ -242,6 +255,7 @@ def main():
     source("UCI cycling championships", cycling)
     source("World Marathon Majors", marathons)
     source("Major athletics", athletics)
+    source("Endurance ultras", ultras)
     source("Men road calendar", road_calendar)
     for league, (label, followed) in SOCCER.items():
         source("Football " + league, lambda l=league, n=label, t=followed: soccer(l, n, t))
