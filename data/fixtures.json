@@ -305,7 +305,7 @@
       "location": ""
     }
   ],
-  "generated_at": "2026-10-08T22:40:57.140682+00:00",
+  "generated_at": "2026-10-08T22:44:57.258181+00:00",
   "coverage": {
     "NHL Pittsburgh": 12,
     "MLB Cleveland": 2,
@@ -331,8 +331,12 @@
     "Football uefa.europa": 0,
     "Football uefa.europa.conf": 0,
     "Football usa.1": 3,
+    "Football usa.open": 0,
+    "Football concacaf.champions": 0,
+    "Football concacaf.leagues.cup": 0,
     "Football fra.1": 2,
     "Football fra.2": 0,
+    "Football fra.coupe_de_france": 0,
     "Football uefa.nations": 0,
     "Football fifa.friendly": 0,
     "Football fifa.world": 0,
