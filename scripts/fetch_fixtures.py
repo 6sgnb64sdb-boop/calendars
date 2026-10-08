@@ -88,8 +88,8 @@ ALIASES = {"Leeds United": ("leeds united",), "Manchester United": ("manchester 
            "England": ("england",), "Australia": ("australia",)}
 
 def soccer(league, label, followed):
-    # ESPN accepts individual dates; scan the rolling 30-day window.
-    for day_offset in range(31):
+    # ESPN accepts individual dates; scan the rolling 14-day football window.
+    for day_offset in range(14):
         day = (TODAY + dt.timedelta(days=day_offset)).strftime("%Y%m%d")
         url = f"https://site.api.espn.com/apis/site/v2/sports/soccer/{league}/scoreboard?dates={day}&limit=500"
         data = fetch(url)
