@@ -1,0 +1,70 @@
+{
+  "source": "https://worldathletics.org/competition/calendar-results",
+  "notes": "Officially listed 2027 athletics dates only; no guessed meeting times. Beijing championship uses one multi-day umbrella event, not a daily event.",
+  "events": [
+    {
+      "uid": "athletics-diamond-league-doha-2027-05-07",
+      "title": "Athletics: Diamond League – Doha",
+      "start": "2027-05-07",
+      "end": "2027-05-08",
+      "location": "Doha, Qatar",
+      "description": "Date from World Athletics official calendar. All-day until meeting start time and Australian broadcast confirmed. Source: https://worldathletics.org/competition/calendar-results"
+    },
+    {
+      "uid": "athletics-diamond-league-london-2027-07-17",
+      "title": "Athletics: Diamond League – London",
+      "start": "2027-07-17",
+      "end": "2027-07-18",
+      "location": "London, United Kingdom",
+      "description": "Date from World Athletics official calendar. All-day until meeting start time and Australian broadcast confirmed. Source: https://worldathletics.org/competition/calendar-results"
+    },
+    {
+      "uid": "athletics-diamond-league-silesia-day-1--2027-08-14",
+      "title": "Athletics: Diamond League – Silesia (Day 1)",
+      "start": "2027-08-14",
+      "end": "2027-08-15",
+      "location": "Chorzów, Poland",
+      "description": "Date from World Athletics official calendar. All-day until meeting start time and Australian broadcast confirmed. Source: https://worldathletics.org/competition/calendar-results"
+    },
+    {
+      "uid": "athletics-diamond-league-silesia-day-2--2027-08-15",
+      "title": "Athletics: Diamond League – Silesia (Day 2)",
+      "start": "2027-08-15",
+      "end": "2027-08-16",
+      "location": "Chorzów, Poland",
+      "description": "Date from World Athletics official calendar. All-day until meeting start time and Australian broadcast confirmed. Source: https://worldathletics.org/competition/calendar-results"
+    },
+    {
+      "uid": "athletics-diamond-league-brussels-2027-08-20",
+      "title": "Athletics: Diamond League – Brussels",
+      "start": "2027-08-20",
+      "end": "2027-08-21",
+      "location": "Brussels, Belgium",
+      "description": "Date from World Athletics official calendar. All-day until meeting start time and Australian broadcast confirmed. Source: https://worldathletics.org/competition/calendar-results"
+    },
+    {
+      "uid": "athletics-diamond-league-z-rich-day-1--2027-08-25",
+      "title": "Athletics: Diamond League – Zürich (Day 1)",
+      "start": "2027-08-25",
+      "end": "2027-08-26",
+      "location": "Zürich, Switzerland",
+      "description": "Date from World Athletics official calendar. All-day until meeting start time and Australian broadcast confirmed. Source: https://worldathletics.org/competition/calendar-results"
+    },
+    {
+      "uid": "athletics-diamond-league-z-rich-day-2--2027-08-26",
+      "title": "Athletics: Diamond League – Zürich (Day 2)",
+      "start": "2027-08-26",
+      "end": "2027-08-27",
+      "location": "Zürich, Switzerland",
+      "description": "Date from World Athletics official calendar. All-day until meeting start time and Australian broadcast confirmed. Source: https://worldathletics.org/competition/calendar-results"
+    },
+    {
+      "uid": "athletics-world-championships-beijing-2027",
+      "title": "Athletics: World Athletics Championships – Beijing 2027",
+      "start": "2027-09-10",
+      "end": "2027-09-20",
+      "location": "National Stadium, Beijing, China",
+      "description": "World Athletics confirmed 10–19 September 2027 (updated from earlier 11 September start). Men's and women's championship programme. All-day umbrella until session schedules confirmed. Source: https://worldathletics.org/competitions/world-athletics-championships/beijing27/news/press-releases/logo-mascot-slogan-beijing-27"
+    }
+  ]
+}
