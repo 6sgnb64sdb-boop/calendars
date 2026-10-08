@@ -16,13 +16,13 @@ ROOT = pathlib.Path(__file__).resolve().parents[1]
 CAL = ROOT / "sports.ics"
 SOURCE = ROOT / "data" / "fixtures.json"
 TZ = ZoneInfo("Australia/Brisbane")
-FORBIDDEN = re.compile(r"\\b(?:NFL|Green Bay Packers|score|final score|winner|result)\\b", re.I)
+FORBIDDEN = re.compile(r"\b(?:NFL|Green Bay Packers|score|final score|winner|result)\b", re.I)
 
 def esc(s):
-    return str(s).replace("\\\\", "\\\\\\\\").replace("\\n", "\\\\n").replace(",", "\\\\,").replace(";", "\\\\;")
+    return str(s).replace("\\", "\\\\").replace("\n", "\\n").replace(",", "\\,").replace(";", "\\;")
 
 def stamp(value):
-    if re.fullmatch(r"\\d{4}-\\d{2}-\\d{2}", value):
+    if re.fullmatch(r"\d{4}-\d{2}-\d{2}", value):
         return "DTSTART;VALUE=DATE:" + value.replace("-", ""), True
     d = dt.datetime.fromisoformat(value.replace("Z", "+00:00"))
     if d.tzinfo is None:
@@ -54,7 +54,7 @@ def render(event):
     if desc:
         lines.append("DESCRIPTION:" + esc(desc))
     lines.extend(["STATUS:" + event.get("status", "CONFIRMED"), "END:VEVENT"])
-    return "\\r\\n".join(lines)
+    return "\r\n".join(lines)
 
 def main():
     data = json.loads(SOURCE.read_text(encoding="utf-8"))
@@ -74,8 +74,8 @@ def main():
     # Preserve previously published events; do not drop unrefreshed sports.
     # Trim only after all tracked sports have complete verified source coverage.
     header = raw.split("BEGIN:VEVENT")[0].rstrip()
-    output = header + "\\r\\n" + "\\r\\n".join(by_uid.values()) + "\\r\\nEND:VCALENDAR\\r\\n"
-    if output.replace("\\r\\n", "\\n") != raw.replace("\\r\\n", "\\n"):
+    output = header + "\r\n" + "\r\n".join(by_uid.values()) + "\r\nEND:VCALENDAR\r\n"
+    if output.replace("\r\n", "\n") != raw.replace("\r\n", "\n"):
         CAL.write_bytes(output.encode("utf-8"))
         print(f"Published {len(by_uid)} events.")
     else:
