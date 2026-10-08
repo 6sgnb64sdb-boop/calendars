@@ -89,7 +89,7 @@ ALIASES = {"Leeds United": ("leeds united",), "Manchester United": ("manchester 
 
 def soccer(league, label, followed):
     dates = TODAY.strftime("%Y%m%d") + "-" + END.strftime("%Y%m%d")
-    url = f"https://site.api.espn.com/apis/site/v2/sports/soccer/{league}/scoreboard?dates={dates}&limit=500"
+    url = f"https://site.api.espn.com/apis/site/v2/sports/soccer/{league}/scoreboard?dates={TODAY.strftime('%Y%m%d')}&limit=500"
     data = fetch(url)
     for event in data.get("events", []):
         competitors = (event.get("competitions") or [{}])[0].get("competitors", [])
