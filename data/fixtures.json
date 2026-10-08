@@ -115,18 +115,34 @@
     {
       "uid": "aflw-haw-2026-r9",
       "title": "AFLW: Hawthorn v Brisbane Lions",
-      "start": "2026-10-11T02:05:00+00:00",
-      "end": "2026-10-11T04:35:00+00:00",
-      "description": "Hawthorn AFLW Round 9. Australia: Seven.",
-      "location": "Kennedy Community Centre"
+      "start": "2026-10-11T02:05:00Z",
+      "end": "2026-10-11T04:35:00Z",
+      "location": "Kennedy Community Centre",
+      "description": "Hawthorn AFLW Round 9. Australia: Seven."
     },
     {
       "uid": "aflw-haw-2026-r10",
       "title": "AFLW: GWS Giants v Hawthorn",
-      "start": "2026-10-18T03:35:00+00:00",
-      "end": "2026-10-18T06:05:00+00:00",
-      "description": "Hawthorn AFLW Round 10. Australia: Fox Footy/Kayo.",
-      "location": "Henson Park"
+      "start": "2026-10-18T03:35:00Z",
+      "end": "2026-10-18T06:05:00Z",
+      "location": "Henson Park",
+      "description": "Hawthorn AFLW Round 10. Australia: Fox Footy/Kayo."
+    },
+    {
+      "uid": "aflw-haw-2026-r11",
+      "title": "AFLW: Hawthorn v Essendon",
+      "start": "2026-10-25T04:05:00Z",
+      "end": "2026-10-25T06:35:00Z",
+      "location": "Kennedy Community Centre",
+      "description": "Hawthorn AFLW Round 11. Australia: Seven."
+    },
+    {
+      "uid": "aflw-haw-2026-r12",
+      "title": "AFLW: West Coast Eagles v Hawthorn",
+      "start": "2026-10-31T08:15:00Z",
+      "end": "2026-10-31T10:45:00Z",
+      "location": "Sullivan Logistics Stadium",
+      "description": "Hawthorn AFLW Round 12. Australia: Seven."
     },
     {
       "uid": "uci-pump-track-worlds-2026",
@@ -305,11 +321,11 @@
       "location": ""
     }
   ],
-  "generated_at": "2026-10-08T22:44:57.258181+00:00",
+  "generated_at": "2026-10-08T22:49:03.483825+00:00",
   "coverage": {
     "NHL Pittsburgh": 12,
     "MLB Cleveland": 2,
-    "Hawthorn AFL/AFLW": 2,
+    "Hawthorn AFL/AFLW": 4,
     "UCI cycling championships": 5,
     "World Marathon Majors": 2,
     "Major athletics": 0,
