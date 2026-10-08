@@ -1,6 +1,6 @@
 {
   "source": "https://www.uci.org/calendar/all/2jnxYAuvjgttyHi6YQ94EJ",
-  "note": "Manually verified UCI championship dates, retained under stable existing UIDs where available. No automatic UCI site extraction; update against official announcements when new schedules are released.",
+  "note": "Officially verified championship dates. Manual updates when UCI publishes or changes schedules; no live UCI website extraction. Preserve stable UIDs.",
   "events": [
     {
       "uid": "uci-pump-track-worlds-2026",
@@ -113,6 +113,29 @@
       "end": "2026-11-08",
       "location": "Riyadh, Saudi Arabia",
       "description": "Official UCI Trials championship dates: 3–7 November 2026. Men's, women's, junior and mixed events. All-day until individual start times verified. https://www.uci.org/competition-details/2026/TRI/74373"
+    },
+    {
+      "uid": "uci-esports-worlds-2026-elite",
+      "title": "UCI Cycling Esports World Championships – Men and Women Elite",
+      "start": "2026-12-05",
+      "end": "2026-12-06",
+      "location": "Copenhagen, Denmark",
+      "description": "UCI confirmed elite finals rescheduled from 12 December to 5 December 2026. Men's and women's competitions. All-day pending verified session times. https://www.uci.org/pressrelease/surprise-surge-checkpoints-and-route-choices-to-shape-the-final-of-the-2026-uci-cycling-esports-world-championships/7uO4iLf5QDk3642Xt5TrYs"
+    },
+    {
+      "uid": "uci-esports-worlds-2026-junior-masters",
+      "title": "UCI Cycling Esports World Championships – Junior and Masters",
+      "start": "2026-12-12",
+      "end": "2026-12-13",
+      "description": "First UCI Junior and Masters Cycling Esports World Championships, 12 December 2026; men's and women's categories. All-day pending official session times. https://www.uci.org/pressrelease/the-uci-and-mywhoosh-launch-the-uci-junior-and-masters-cycling-esports-world-championships/76e7MTjLzQNwGqtSUR3j8h"
+    },
+    {
+      "uid": "uci-cyclocross-worlds-2027",
+      "title": "UCI Cyclo-cross World Championships – Men and Women",
+      "start": "2027-01-29",
+      "end": "2027-02-01",
+      "location": "Ostend, Belgium",
+      "description": "Official UCI championship dates 29–31 January 2027. All-day umbrella until individual race sessions verified. https://www.uci.org/competition-hub/2027-uci-cyclo-cross-world-championships/5VLL2BRMbgM6HA3KRXUSyL"
     }
   ]
 }
