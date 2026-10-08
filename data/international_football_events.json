@@ -1,0 +1,37 @@
+{
+  "notes": "Officially announced senior men's international fixtures missing from automated ESPN discovery. Date-only placeholders where kickoff timezone/time unverified. 45-day rolling import.",
+  "events": [
+    {
+      "uid": "intl-eng-cro-2026-11-12",
+      "title": "UEFA Nations League: England v Croatia",
+      "start": "2026-11-12T19:45:00+00:00",
+      "end": "2026-11-12T22:15:00+00:00",
+      "location": "Wembley Stadium, London",
+      "description": "England senior men's international. Australia viewing to be confirmed. Official: https://www.englandfootball.com/england/mens-senior-team/fixtures-results"
+    },
+    {
+      "uid": "intl-esp-eng-2026-11-15",
+      "title": "UEFA Nations League: Spain v England",
+      "start": "2026-11-15",
+      "end": "2026-11-16",
+      "location": "Metropolitano Stadium, Madrid",
+      "description": "England senior men's international. Start time shown as date-only pending timezone confirmation. Official: https://www.englandfootball.com/england/mens-senior-team/fixtures-results"
+    },
+    {
+      "uid": "intl-qat-aus-2026-11-14",
+      "title": "International Friendly: Qatar v Australia",
+      "start": "2026-11-13T14:45:00+00:00",
+      "end": "2026-11-13T17:15:00+00:00",
+      "location": "Jassim bin Hamad Stadium, Doha, Qatar",
+      "description": "Socceroos senior men's international. Brisbane start 00:45 Saturday 14 November. Australia viewing: Paramount+. Official: https://footballaustralia.com.au/news/commbank-socceroos-face-qatar-and-jordan-ahead-afc-asian-cup-2027tm?page=2"
+    },
+    {
+      "uid": "intl-jor-aus-2026-11-17",
+      "title": "International Friendly: Jordan v Australia",
+      "start": "2026-11-17",
+      "end": "2026-11-19",
+      "location": "Amman, Jordan",
+      "description": "Socceroos senior men's international. Kick-off TBC; November 17 local, potentially November 18 in Australia. Date-only placeholder; Australia viewing: Paramount+. Official: https://footballaustralia.com.au/news/commbank-socceroos-face-qatar-and-jordan-ahead-afc-asian-cup-2027tm?page=2"
+    }
+  ]
+}
