@@ -537,4 +537,74 @@ DESCRIPTION:Australia: Apple TV. Fixture listing currently shows Nov 1.
 STATUS:CONFIRMED
 END:VEVENT
 X-LAST-VERIFIED:20261007T073100+1000
+BEGIN:VEVENT
+UID:uci-gravel-worlds-2026-women@sandy-calendars
+DTSTAMP:20261008T202300Z
+DTSTART;VALUE=DATE:20261010
+DTEND;VALUE=DATE:20261011
+SUMMARY:UCI Gravel World Championships – Women Elite
+LOCATION:Nannup\, Western Australia
+DESCRIPTION:Women Elite race. Official UCI event: https://www.uci.org/competition-hub/2026-uci-gravel-world-championships/4pPnJQCxeBxNQnUav5ckqn
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:uci-gravel-worlds-2026-men@sandy-calendars
+DTSTAMP:20261008T202300Z
+DTSTART;VALUE=DATE:20261011
+DTEND;VALUE=DATE:20261012
+SUMMARY:UCI Gravel World Championships – Men Elite
+LOCATION:Nannup\, Western Australia
+DESCRIPTION:Men Elite race. Official UCI event: https://www.uci.org/competition-hub/2026-uci-gravel-world-championships/4pPnJQCxeBxNQnUav5ckqn
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:uci-track-worlds-2026-day-1@sandy-calendars
+DTSTAMP:20261008T202300Z
+DTSTART;VALUE=DATE:20261014
+DTEND;VALUE=DATE:20261015
+SUMMARY:UCI Track World Championships – Day 1
+LOCATION:Shanghai\, China
+DESCRIPTION:Men's and women's championship sessions. Official UCI programme: https://www.uci.org/competition-hub/2026-tissot-uci-track-world-championships/39Is0rqaU5PS9XcOIiiqBN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:uci-track-worlds-2026-day-2@sandy-calendars
+DTSTAMP:20261008T202300Z
+DTSTART;VALUE=DATE:20261015
+DTEND;VALUE=DATE:20261016
+SUMMARY:UCI Track World Championships – Day 2
+LOCATION:Shanghai\, China
+DESCRIPTION:Men's and women's championship sessions. Official UCI programme: https://www.uci.org/competition-hub/2026-tissot-uci-track-world-championships/39Is0rqaU5PS9XcOIiiqBN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:uci-track-worlds-2026-day-3@sandy-calendars
+DTSTAMP:20261008T202300Z
+DTSTART;VALUE=DATE:20261016
+DTEND;VALUE=DATE:20261017
+SUMMARY:UCI Track World Championships – Day 3
+LOCATION:Shanghai\, China
+DESCRIPTION:Men's and women's championship sessions. Official UCI programme: https://www.uci.org/competition-hub/2026-tissot-uci-track-world-championships/39Is0rqaU5PS9XcOIiiqBN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:uci-track-worlds-2026-day-4@sandy-calendars
+DTSTAMP:20261008T202300Z
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261018
+SUMMARY:UCI Track World Championships – Day 4
+LOCATION:Shanghai\, China
+DESCRIPTION:Men's and women's championship sessions. Official UCI programme: https://www.uci.org/competition-hub/2026-tissot-uci-track-world-championships/39Is0rqaU5PS9XcOIiiqBN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:uci-track-worlds-2026-day-5@sandy-calendars
+DTSTAMP:20261008T202300Z
+DTSTART;VALUE=DATE:20261018
+DTEND;VALUE=DATE:20261019
+SUMMARY:UCI Track World Championships – Day 5
+LOCATION:Shanghai\, China
+DESCRIPTION:Men's and women's championship sessions. Official UCI programme: https://www.uci.org/competition-hub/2026-tissot-uci-track-world-championships/39Is0rqaU5PS9XcOIiiqBN
+STATUS:CONFIRMED
+END:VEVENT
 END:VCALENDAR
