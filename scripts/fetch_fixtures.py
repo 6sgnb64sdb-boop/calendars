@@ -176,27 +176,37 @@ def road_calendar():
                "ladies", "junior", "under 23", "u23", "u19", "u17", "espoirs",
                "development", "amateur", "gran fondo")
     today = TODAY.date()
+    stats = {"feed_events": 0, "eligible_races": 0, "outside_window": 0, "unsupported_dates": 0, "existing_races": 0, "added": 0}
     for block in raw.split("BEGIN:VEVENT")[1:]:
+        stats["feed_events"] += 1
         lines = dict(line.split(":", 1) for line in block.split("END:VEVENT")[0].split("\\n")
                      if ":" in line and line.split(":", 1)[0] in ("SUMMARY", "DTSTART;VALUE=DATE", "DTSTART", "UID"))
         title = lines.get("SUMMARY", "").replace("\\,", ",").replace("\\;", ";").strip()
         low = title.casefold()
         if not any(term in low for term in allow) or any(term in low for term in blocked):
             continue
+        stats["eligible_races"] += 1
         datevalue = lines.get("DTSTART;VALUE=DATE", lines.get("DTSTART", ""))
         if not __import__("re").fullmatch(r"\\d{8}", datevalue):
+            stats["unsupported_dates"] += 1
             continue  # Ignore ambiguous time zones until individually verified.
         day = dt.datetime.strptime(datevalue, "%Y%m%d").date()
         if not today <= day <= today + dt.timedelta(days=45):
+            stats["outside_window"] += 1
             continue
         # Do not create duplicates of manually published stage/race entries.
         if ("lombardia" in low and day.year == 2026) or ("guangxi" in low and day.year == 2026):
+            stats["existing_races"] += 1
             continue
         key = __import__("re").sub(r"[^a-z0-9]+", "-", low).strip("-")[:85]
         uid = f"road-{day.isoformat()}-{key}"
+        stats["added"] += 1
         EVENTS[uid] = dict(uid=uid, title="Cycling: " + title,
                            start=day.isoformat(), end=(day + dt.timedelta(days=1)).isoformat(),
                            description="Men's professional road race. Date from The Inner Ring public cycling calendar; start time and Australian broadcaster unconfirmed.")
+
+    COUNTS["Men road feed diagnostics"] = stats
+    print("Men road feed diagnostics:", json.dumps(stats, sort_keys=True))
 
 def main():
     source("NHL Pittsburgh", nhl)
