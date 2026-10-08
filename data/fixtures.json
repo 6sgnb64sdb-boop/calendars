@@ -273,7 +273,7 @@
       "location": ""
     }
   ],
-  "generated_at": "2026-10-08T22:31:18.792690+00:00",
+  "generated_at": "2026-10-08T22:34:37.529956+00:00",
   "coverage": {
     "NHL Pittsburgh": 12,
     "MLB Cleveland": 2,
@@ -301,6 +301,8 @@
     "Football fra.1": 2,
     "Football fra.2": 0,
     "Football uefa.nations": 0,
-    "Football fifa.friendly": 0
+    "Football fifa.friendly": 0,
+    "Football fifa.world": 0,
+    "Football afc.asian.cup": 0
   }
 }
