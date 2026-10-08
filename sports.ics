@@ -47,16 +47,6 @@ DESCRIPTION:Australia: ESPN/NHL coverage via Disney+\; also ESPN via Kayo/Foxtel
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:nfl-gb-tb-2026-w4@sandy-calendars
-DTSTAMP:20261002T195500Z
-DTSTART;TZID=Australia/Brisbane:20261005T030000
-DTEND;TZID=Australia/Brisbane:20261005T063000
-SUMMARY:NFL: Green Bay Packers @ Tampa Bay Buccaneers
-LOCATION:Raymond James Stadium
-DESCRIPTION:Australia: NFL Game Pass via DAZN\; ESPN via Disney+/Kayo/Foxtel for selected games.
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:mlb-alds-cle-cws-g2-2026@sandy-calendars
 DTSTAMP:20261002T195500Z
 DTSTART;TZID=Australia/Brisbane:20261006T070000
@@ -204,16 +194,6 @@ DTEND;TZID=Australia/Brisbane:20261012T043000
 SUMMARY:Athletics: Chicago Marathon
 LOCATION:Chicago\, Illinois
 DESCRIPTION:World Marathon Major. Australian broadcast availability to be confirmed.
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:nfl-gb-chi-2026-w5@sandy-calendars
-DTSTAMP:20261002T195500Z
-DTSTART;TZID=Australia/Brisbane:20261012T030000
-DTEND;TZID=Australia/Brisbane:20261012T063000
-SUMMARY:NFL: Chicago Bears @ Green Bay Packers
-LOCATION:Lambeau Field
-DESCRIPTION:Australia: NFL Game Pass via DAZN\; ESPN via Disney+/Kayo/Foxtel for selected games.
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -387,16 +367,6 @@ DESCRIPTION:Australia: Stan Sport.
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:nfl-dal-gb-2026-w6@sandy-calendars
-DTSTAMP:20261002T195500Z
-DTSTART;TZID=Australia/Brisbane:20261019T102000
-DTEND;TZID=Australia/Brisbane:20261019T135000
-SUMMARY:NFL: Dallas Cowboys @ Green Bay Packers
-LOCATION:Lambeau Field
-DESCRIPTION:Australia: NFL Game Pass via DAZN\; ESPN via Disney+/Kayo/Foxtel for selected games.
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:nhl-pit-uta-2026@sandy-calendars
 DTSTAMP:20261002T195500Z
 DTSTART;TZID=Australia/Brisbane:20261020T110000
@@ -477,16 +447,6 @@ DESCRIPTION:Australia: Stan Sport.
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:nfl-gb-det-2026-w7@sandy-calendars
-DTSTAMP:20261002T195500Z
-DTSTART;TZID=Australia/Brisbane:20261026T062500
-DTEND;TZID=Australia/Brisbane:20261026T095500
-SUMMARY:NFL: Green Bay Packers @ Detroit Lions
-LOCATION:Ford Field
-DESCRIPTION:Australia: NFL Game Pass via DAZN\; ESPN via Disney+/Kayo/Foxtel for selected games.
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:mls-nsh-phi-2026-10-28@sandy-calendars
 DTSTAMP:20261002T195500Z
 DTSTART;TZID=Australia/Brisbane:20261029T103000
@@ -504,16 +464,6 @@ DTEND;TZID=Australia/Brisbane:20261030T114500
 SUMMARY:NHL: Utah Mammoth @ Pittsburgh Penguins
 LOCATION:PPG Paints Arena
 DESCRIPTION:Australia: ESPN/NHL coverage via Disney+\; also ESPN via Kayo/Foxtel. Check 9Go!/9Now for weekly free-to-air selection.
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:nfl-car-gb-2026-w8@sandy-calendars
-DTSTAMP:20261002T195500Z
-DTSTART;TZID=Australia/Brisbane:20261030T101500
-DTEND;TZID=Australia/Brisbane:20261030T134500
-SUMMARY:NFL: Carolina Panthers @ Green Bay Packers
-LOCATION:Lambeau Field
-DESCRIPTION:Australia: NFL Game Pass via DAZN\; ESPN via Disney+/Kayo/Foxtel for selected games.
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
