@@ -233,7 +233,7 @@
       "location": ""
     }
   ],
-  "generated_at": "2026-10-08T21:53:48.170972+00:00",
+  "generated_at": "2026-10-08T21:55:28.704245+00:00",
   "coverage": {
     "NHL Pittsburgh": 12,
     "MLB Cleveland": 2,
@@ -241,10 +241,10 @@
     "UCI cycling championships": 3,
     "Men road feed diagnostics": {
       "feed_events": 290,
-      "eligible_races": 0,
-      "outside_window": 0,
+      "eligible_races": 38,
+      "outside_window": 36,
       "unsupported_dates": 0,
-      "existing_races": 0,
+      "existing_races": 2,
       "added": 0
     },
     "Men road calendar": 0,
