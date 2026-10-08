@@ -233,12 +233,29 @@
       "location": ""
     }
   ],
-  "generated_at": "2026-10-08T21:57:56.604141+00:00",
+  "generated_at": "2026-10-08T22:02:39.732453+00:00",
   "coverage": {
     "NHL Pittsburgh": 12,
     "MLB Cleveland": 2,
     "Hawthorn AFL/AFLW": 2,
     "UCI cycling championships": 3,
+    "UCI official programme diagnostics": {
+      "source": "UCI MTB 2027",
+      "dates_detected": [],
+      "expected_dates_matched": [],
+      "expected_dates_missing": [
+        "2027-08-26",
+        "2027-08-27",
+        "2027-08-30",
+        "2027-08-31",
+        "2027-09-01",
+        "2027-09-02",
+        "2027-09-03",
+        "2027-09-04"
+      ],
+      "automatic_import_enabled": false,
+      "events_added": 0
+    },
     "UCI official calendar discovery": 0,
     "Men road feed diagnostics": {
       "feed_events": 290,
