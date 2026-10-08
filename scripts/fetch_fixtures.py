@@ -179,7 +179,7 @@ def road_calendar():
     stats = {"feed_events": 0, "eligible_races": 0, "outside_window": 0, "unsupported_dates": 0, "existing_races": 0, "added": 0}
     for block in raw.split("BEGIN:VEVENT")[1:]:
         stats["feed_events"] += 1
-        lines = dict(line.split(":", 1) for line in block.split("END:VEVENT")[0].split("\\n")
+        lines = dict(line.split(":", 1) for line in block.split("END:VEVENT")[0].split("\n")
                      if ":" in line and line.split(":", 1)[0] in ("SUMMARY", "DTSTART;VALUE=DATE", "DTSTART", "UID"))
         title = lines.get("SUMMARY", "").replace("\\,", ",").replace("\\;", ";").strip()
         low = title.casefold()
