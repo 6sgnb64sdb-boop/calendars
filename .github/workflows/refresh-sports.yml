@@ -1,6 +1,8 @@
 name: Refresh sports calendar
 on:
   workflow_dispatch:
+  schedule:
+    - cron: '15 21 * * *' # 07:15 Brisbane (UTC+10)
 
 permissions:
   contents: write
