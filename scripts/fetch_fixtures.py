@@ -251,6 +251,18 @@ def ultras():
             start=event["start"], end=event["end"], location=event.get("location", ""),
             description=event.get("description", ""))
 
+def confirmed_internationals():
+    """Fill ESPN gaps using official senior men's national-team fixture announcements."""
+    payload = json.loads((ROOT / "data" / "international_football_events.json").read_text(encoding="utf-8"))
+    cutoff = TODAY.date() + dt.timedelta(days=45)
+    for event in payload.get("events", []):
+        date = dt.date.fromisoformat(event["start"][:10])
+        if not TODAY.date() <= date <= cutoff:
+            continue
+        EVENTS[event["uid"]] = dict(uid=event["uid"], title=event["title"],
+            start=event["start"], end=event["end"], location=event.get("location", ""),
+            description=event.get("description", ""))
+
 def main():
     source("NHL Pittsburgh", nhl)
     source("MLB Cleveland", mlb)
@@ -259,6 +271,7 @@ def main():
     source("World Marathon Majors", marathons)
     source("Major athletics", athletics)
     source("Endurance ultras", ultras)
+    source("Confirmed internationals", confirmed_internationals)
     source("Men road calendar", road_calendar)
     for league, (label, followed) in SOCCER.items():
         source("Football " + league, lambda l=league, n=label, t=followed: soccer(l, n, t))
