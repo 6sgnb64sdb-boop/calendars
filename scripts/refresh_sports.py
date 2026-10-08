@@ -63,14 +63,23 @@ def main():
         print("No verified source events supplied; preserving existing calendar unchanged.")
         return
     raw = CAL.read_text(encoding="utf-8")
+    aliases = json.loads((ROOT / "data" / "calendar_uid_aliases.json").read_text(encoding="utf-8"))
     blocks = re.findall(r"BEGIN:VEVENT.*?END:VEVENT", raw, re.S)
     by_uid = {}
     for block in blocks:
         m = re.search(r"^UID:(.+)$", block, re.M)
         if m:
             by_uid[m.group(1).strip()] = block.strip()
+    # Reuse original UIDs so Apple Calendar updates the same event.
+    # Remove superseded automated copies even if outside the current search window.
+    for new_id, original_id in aliases.items():
+        if new_id == original_id:
+            continue
+        by_uid.pop(new_id + "@sandy-calendars", None)
     for event in fresh:
-        by_uid[event["uid"] + "@sandy-calendars"] = render(event)
+        original_id = aliases.get(event["uid"], event["uid"])
+        stable_event = dict(event, uid=original_id)
+        by_uid[original_id + "@sandy-calendars"] = render(stable_event)
     # Preserve previously published events; do not drop unrefreshed sports.
     # Trim only after all tracked sports have complete verified source coverage.
     header = raw.split("BEGIN:VEVENT")[0].rstrip()
