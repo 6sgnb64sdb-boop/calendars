@@ -1,0 +1,70 @@
+{
+  "source": "https://www.uci.org/calendar/all/2jnxYAuvjgttyHi6YQ94EJ",
+  "note": "Verified event-level dates only; not an automatic UCI API feed. Existing session/stage entries are retained.",
+  "events": [
+    {
+      "uid": "uci-pump-track-worlds-2026",
+      "title": "UCI Pump Track World Championships",
+      "start": "2026-10-16",
+      "end": "2026-10-18",
+      "location": "Mentougou, Beijing, China",
+      "description": "Dates confirmed by UCI. All-day placeholder until individual race/session times are verified. Australian broadcast availability to be confirmed."
+    },
+    {
+      "uid": "uci-mtb-enduro-worlds-2026",
+      "title": "UCI MTB Enduro & E-Enduro World Championships",
+      "start": "2026-10-16",
+      "end": "2026-10-19",
+      "location": "Finale Ligure, Italy",
+      "description": "Dates confirmed by UCI. All-day placeholder until individual race/session times are verified. Australian broadcast availability to be confirmed."
+    },
+    {
+      "uid": "uci-para-track-worlds-2026",
+      "title": "UCI Para-cycling Track World Championships",
+      "start": "2026-10-26",
+      "end": "2026-11-02",
+      "location": "Apeldoorn, Netherlands",
+      "description": "Dates confirmed by UCI. All-day placeholder until individual race/session times are verified. Australian broadcast availability to be confirmed."
+    },
+    {
+      "uid": "uci-urban-worlds-2026",
+      "title": "UCI Urban Cycling World Championships",
+      "start": "2026-11-03",
+      "end": "2026-11-08",
+      "location": "Riyadh, Saudi Arabia",
+      "description": "Dates confirmed by UCI. All-day placeholder until individual race/session times are verified. Australian broadcast availability to be confirmed."
+    },
+    {
+      "uid": "cycling-lombardia-2026",
+      "title": "Cycling: Il Lombardia (Men)",
+      "start": "2026-10-10",
+      "end": "2026-10-11",
+      "location": "Italy",
+      "description": "Dates confirmed by UCI. All-day placeholder until individual race/session times are verified. Australian broadcast availability to be confirmed."
+    },
+    {
+      "uid": "uci-gravel-worlds-2026",
+      "title": "UCI Gravel World Championships (Men and Women)",
+      "start": "2026-10-10",
+      "end": "2026-10-12",
+      "location": "Nannup, Western Australia",
+      "description": "Dates confirmed by UCI. All-day placeholder until individual race/session times are verified. Australian broadcast availability to be confirmed."
+    },
+    {
+      "uid": "uci-track-worlds-2026",
+      "title": "UCI Track World Championships (Men and Women)",
+      "start": "2026-10-14",
+      "end": "2026-10-19",
+      "location": "Shanghai, China",
+      "description": "Dates confirmed by UCI. All-day placeholder until individual race/session times are verified. Australian broadcast availability to be confirmed."
+    },
+    {
+      "uid": "cycling-guangxi-2026",
+      "title": "Cycling: Tour of Guangxi (Men)",
+      "start": "2026-10-13",
+      "end": "2026-10-19",
+      "location": "China",
+      "description": "Dates confirmed by UCI. All-day placeholder until individual race/session times are verified. Australian broadcast availability to be confirmed."
+    }
+  ]
+}
