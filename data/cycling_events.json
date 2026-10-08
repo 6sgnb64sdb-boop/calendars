@@ -1,6 +1,6 @@
 {
   "source": "https://www.uci.org/calendar/all/2jnxYAuvjgttyHi6YQ94EJ",
-  "note": "Verified championship dates, including official 2027 MTB discipline sessions. Static source until structured official import is proven; no unverified start times.",
+  "note": "Manually verified UCI championship dates, retained under stable existing UIDs where available. No automatic UCI site extraction; update against official announcements when new schedules are released.",
   "events": [
     {
       "uid": "uci-pump-track-worlds-2026",
@@ -97,6 +97,22 @@
       "end": "2027-09-05",
       "location": "Haute-Savoie, France",
       "description": "Official UCI MTB competition details list these races on this date. All-day until session start times are published. Source: https://www.uci.org/competition-details/2027/MTB/79857"
+    },
+    {
+      "uid": "uci-indoor-worlds-2026",
+      "title": "UCI Indoor Cycling World Championships",
+      "start": "2026-10-30",
+      "end": "2026-11-02",
+      "location": "Ludwigsburg, Germany",
+      "description": "Official UCI schedule: 30 October–1 November 2026. Includes artistic cycling and cycle-ball for men's, women's and mixed categories. All-day until session times verified. https://www.uci.org/competition-details/2026/IND/77944"
+    },
+    {
+      "uid": "uci-urban-worlds-2026",
+      "title": "UCI Urban Cycling World Championships – Trials",
+      "start": "2026-11-03",
+      "end": "2026-11-08",
+      "location": "Riyadh, Saudi Arabia",
+      "description": "Official UCI Trials championship dates: 3–7 November 2026. Men's, women's, junior and mixed events. All-day until individual start times verified. https://www.uci.org/competition-details/2026/TRI/74373"
     }
   ]
 }
