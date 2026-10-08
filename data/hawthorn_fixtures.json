@@ -1,0 +1,38 @@
+{
+  "source": "https://www.hawthornfc.com.au/matches/fixture?Competition=3",
+  "verified_season": 2026,
+  "events": [
+    {
+      "uid": "aflw-haw-2026-r9",
+      "title": "AFLW: Hawthorn v Brisbane Lions",
+      "start": "2026-10-11T02:05:00Z",
+      "end": "2026-10-11T04:35:00Z",
+      "description": "Hawthorn AFLW Round 9. Australia: Seven.",
+      "location": "Kennedy Community Centre"
+    },
+    {
+      "uid": "aflw-haw-2026-r10",
+      "title": "AFLW: GWS Giants v Hawthorn",
+      "start": "2026-10-18T03:35:00Z",
+      "end": "2026-10-18T06:05:00Z",
+      "description": "Hawthorn AFLW Round 10. Australia: Fox Footy/Kayo.",
+      "location": "Henson Park"
+    },
+    {
+      "uid": "aflw-haw-2026-r11",
+      "title": "AFLW: Hawthorn v Essendon",
+      "start": "2026-10-25T04:05:00Z",
+      "end": "2026-10-25T06:35:00Z",
+      "description": "Hawthorn AFLW Round 11. Australia: Seven.",
+      "location": "Kennedy Community Centre"
+    },
+    {
+      "uid": "aflw-haw-2026-r12",
+      "title": "AFLW: West Coast Eagles v Hawthorn",
+      "start": "2026-10-31T08:15:00Z",
+      "end": "2026-10-31T10:45:00Z",
+      "description": "Hawthorn AFLW Round 12. Australia: Seven.",
+      "location": "Sullivan Logistics Stadium"
+    }
+  ]
+}
