@@ -121,20 +121,21 @@ def soccer(league, label, followed):
             add(f"soccer-{league}-{event['id']}", f"{label}: {home} v {away}", start, 2.5, "Australia viewing: " + viewing)
 
 def hawthorn():
-    """Use verified Hawthorn AFL/AFLW fixtures; rolling 14-day window.
+    """Use verified Hawthorn AFL/AFLW fixtures; rolling 45-day window.
 
     Source data must be reviewed for new seasons, finals and reschedules.
     This deliberately does not scrape scores or results pages.
     """
     payload = json.loads((ROOT / "data" / "hawthorn_fixtures.json").read_text(encoding="utf-8"))
-    window_end = TODAY + dt.timedelta(days=14)
+    window_end = TODAY + dt.timedelta(days=45)
     for event in payload.get("events", []):
         start = dt.datetime.fromisoformat(event["start"].replace("Z", "+00:00"))
         if not TODAY <= start <= window_end:
             continue
-        add(event["uid"], event["title"], event["start"],
-            (dt.datetime.fromisoformat(event["end"].replace("Z", "+00:00")) - start).total_seconds() / 3600,
-            event.get("description", ""), event.get("location", ""))
+        # Insert directly: add() has a shorter 30-day window for other sports.
+        EVENTS[event["uid"]] = dict(uid=event["uid"], title=event["title"],
+            start=event["start"], end=event["end"], location=event.get("location", ""),
+            description=event.get("description", ""))
 
 def cycling():
     """Load UCI-verified event dates not already represented in the calendar.
