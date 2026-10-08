@@ -1,0 +1,29 @@
+name: Test calendar publishing
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  test-write:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
+      - name: Update harmless test file
+        run: |
+          mkdir -p .github/calendar-tests
+          printf 'Last successful workflow write: %s\n' "$(date -u +'%Y-%m-%dT%H:%M:%SZ')" > .github/calendar-tests/last-write.txt
+
+      - name: Commit and push test file
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add .github/calendar-tests/last-write.txt
+          git commit -m "Test automated calendar publishing" || exit 0
+          git push
