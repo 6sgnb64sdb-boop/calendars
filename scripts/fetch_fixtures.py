@@ -208,61 +208,12 @@ def road_calendar():
     COUNTS["Men road feed diagnostics"] = stats
     print("Men road feed diagnostics:", json.dumps(stats, sort_keys=True))
 
-def uci_championship_discovery():
-    """Read UCI's official MTB 2027 race programme in diagnostic-only mode.
-
-    Extract dated race codes from page text, compare against verified seed days.
-    Never publish unverified page parses, results or times to the calendar.
-    """
-    import html
-    import re
-    from html.parser import HTMLParser
-
-    class VisibleText(HTMLParser):
-        def __init__(self):
-            super().__init__()
-            self.parts = []
-            self.hidden = 0
-        def handle_starttag(self, tag, attrs):
-            if tag in ("script", "style", "noscript"):
-                self.hidden += 1
-            if tag in ("h1", "h2", "h3", "h4", "p", "li", "div", "span", "br"):
-                self.parts.append("\\n")
-        def handle_endtag(self, tag):
-            if tag in ("script", "style", "noscript") and self.hidden:
-                self.hidden -= 1
-        def handle_data(self, data):
-            if not self.hidden:
-                self.parts.append(data)
-
-    url = "https://www.uci.org/competition-details/2027/MTB/79857"
-    request = urllib.request.Request(url, headers={
-        "User-Agent": "Mozilla/5.0 (compatible; SandySportsCalendar/1.0)",
-        "Accept": "text/html"})
-    with urllib.request.urlopen(request, timeout=25) as response:
-        body = response.read(2_000_000).decode("utf-8", errors="replace")
-    parser = VisibleText()
-    parser.feed(body)
-    visible = html.unescape(" ".join(parser.parts))
-    # Extract only dates appearing alongside the official race programme.
-    dates = sorted(set(re.findall(r"\\b(\\d{1,2})\\s+(Aug|Sep)\\s+2027\\b", visible, re.I)))
-    detected = sorted(set(f"2027-{'08' if mon.lower() == 'aug' else '09'}-{int(day):02d}" for day, mon in dates))
-    expected = sorted({"2027-08-26", "2027-08-27", "2027-08-30", "2027-08-31",
-                       "2027-09-01", "2027-09-02", "2027-09-03", "2027-09-04"})
-    # Diagnostic only: page may be JavaScript-rendered or change structure.
-    COUNTS["UCI official programme diagnostics"] = {
-        "source": "UCI MTB 2027", "dates_detected": detected,
-        "expected_dates_matched": sorted(set(detected) & set(expected)),
-        "expected_dates_missing": sorted(set(expected) - set(detected)),
-        "automatic_import_enabled": False, "events_added": 0}
-    print("UCI official programme diagnostics:", json.dumps(COUNTS["UCI official programme diagnostics"], sort_keys=True))
 
 def main():
     source("NHL Pittsburgh", nhl)
     source("MLB Cleveland", mlb)
     source("Hawthorn AFL/AFLW", hawthorn)
     source("UCI cycling championships", cycling)
-    source("UCI official calendar discovery", uci_championship_discovery)
     source("Men road calendar", road_calendar)
     for league, (label, followed) in SOCCER.items():
         source("Football " + league, lambda l=league, n=label, t=followed: soccer(l, n, t))
