@@ -193,6 +193,38 @@
       "description": "Multi-day endurance ultramarathon; all-day event covering published race/event window. Follow official organiser for live tracking and streaming; no scores or results. Source: https://www.destinationtrailrun.com/race-calendar/2026-moab-240-adfc8-hkyzr"
     },
     {
+      "uid": "intl-eng-cro-2026-11-12",
+      "title": "UEFA Nations League: England v Croatia",
+      "start": "2026-11-12T19:45:00+00:00",
+      "end": "2026-11-12T22:15:00+00:00",
+      "location": "Wembley Stadium, London",
+      "description": "England senior men's international. Australia viewing to be confirmed. Official: https://www.englandfootball.com/england/mens-senior-team/fixtures-results"
+    },
+    {
+      "uid": "intl-esp-eng-2026-11-15",
+      "title": "UEFA Nations League: Spain v England",
+      "start": "2026-11-15",
+      "end": "2026-11-16",
+      "location": "Metropolitano Stadium, Madrid",
+      "description": "England senior men's international. Start time shown as date-only pending timezone confirmation. Official: https://www.englandfootball.com/england/mens-senior-team/fixtures-results"
+    },
+    {
+      "uid": "intl-qat-aus-2026-11-14",
+      "title": "International Friendly: Qatar v Australia",
+      "start": "2026-11-13T14:45:00+00:00",
+      "end": "2026-11-13T17:15:00+00:00",
+      "location": "Jassim bin Hamad Stadium, Doha, Qatar",
+      "description": "Socceroos senior men's international. Brisbane start 00:45 Saturday 14 November. Australia viewing: Paramount+. Official: https://footballaustralia.com.au/news/commbank-socceroos-face-qatar-and-jordan-ahead-afc-asian-cup-2027tm?page=2"
+    },
+    {
+      "uid": "intl-jor-aus-2026-11-17",
+      "title": "International Friendly: Jordan v Australia",
+      "start": "2026-11-17",
+      "end": "2026-11-19",
+      "location": "Amman, Jordan",
+      "description": "Socceroos senior men's international. Kick-off TBC; November 17 local, potentially November 18 in Australia. Date-only placeholder; Australia viewing: Paramount+. Official: https://footballaustralia.com.au/news/commbank-socceroos-face-qatar-and-jordan-ahead-afc-asian-cup-2027tm?page=2"
+    },
+    {
       "uid": "soccer-eng.1-401879268",
       "title": "Premier League: Arsenal v Leeds United",
       "start": "2026-10-10T11:30:00+00:00",
@@ -273,7 +305,7 @@
       "location": ""
     }
   ],
-  "generated_at": "2026-10-08T22:34:37.529956+00:00",
+  "generated_at": "2026-10-08T22:40:57.140682+00:00",
   "coverage": {
     "NHL Pittsburgh": 12,
     "MLB Cleveland": 2,
@@ -282,6 +314,7 @@
     "World Marathon Majors": 2,
     "Major athletics": 0,
     "Endurance ultras": 1,
+    "Confirmed internationals": 4,
     "Men road feed diagnostics": {
       "feed_events": 290,
       "eligible_races": 38,
