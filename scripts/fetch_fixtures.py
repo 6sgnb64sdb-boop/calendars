@@ -112,9 +112,26 @@ def soccer(league, label, followed):
             viewing = "Stan Sport" if league in ("eng.1", "uefa.champions", "uefa.europa", "uefa.europa.conf") else "Australian broadcaster to be confirmed"
             add(f"soccer-{league}-{event['id']}", f"{label}: {home} v {away}", start, 2.5, "Australia viewing: " + viewing)
 
+def hawthorn():
+    """Use verified Hawthorn AFL/AFLW fixtures; rolling 14-day window.
+
+    Source data must be reviewed for new seasons, finals and reschedules.
+    This deliberately does not scrape scores or results pages.
+    """
+    payload = json.loads((ROOT / "data" / "hawthorn_fixtures.json").read_text(encoding="utf-8"))
+    window_end = TODAY + dt.timedelta(days=14)
+    for event in payload.get("events", []):
+        start = dt.datetime.fromisoformat(event["start"].replace("Z", "+00:00"))
+        if not TODAY <= start <= window_end:
+            continue
+        add(event["uid"], event["title"], event["start"],
+            (dt.datetime.fromisoformat(event["end"].replace("Z", "+00:00")) - start).total_seconds() / 3600,
+            event.get("description", ""), event.get("location", ""))
+
 def main():
     source("NHL Pittsburgh", nhl)
     source("MLB Cleveland", mlb)
+    source("Hawthorn AFL/AFLW", hawthorn)
     for league, (label, followed) in SOCCER.items():
         source("Football " + league, lambda l=league, n=label, t=followed: soccer(l, n, t))
     # Never replace previously collected source data with an empty response.
@@ -122,12 +139,12 @@ def main():
         print("No verified future fixtures retrieved; leaving data file unchanged.")
         print("Errors:", ERRORS)
         return 1
-    # Source errors cause a failed workflow rather than an apparently complete refresh.
+    # Publish successful sources even when another source is unavailable.
+    # Keep previously published fixtures; report source failures in logs.
     if ERRORS:
-        print("Some sources failed; no partial data file published:")
+        print("WARNING: Some sources failed; successful sports will still publish:")
         for error in ERRORS:
             print(error)
-        return 1
     OUT.write_text(json.dumps({"events": list(EVENTS.values()), "generated_at": TODAY.isoformat(), "coverage": COUNTS}, indent=2) + "\n", encoding="utf-8")
     print("Upcoming events collected:", len(EVENTS))
     print("Source counts:", COUNTS)
