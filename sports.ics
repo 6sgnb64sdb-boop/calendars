@@ -607,4 +607,22 @@ LOCATION:Shanghai\, China
 DESCRIPTION:Men's and women's championship sessions. Official UCI programme: https://www.uci.org/competition-hub/2026-tissot-uci-track-world-championships/39Is0rqaU5PS9XcOIiiqBN
 STATUS:CONFIRMED
 END:VEVENT
+BEGIN:VEVENT
+UID:uci-indoor-worlds-2026@sandy-calendars
+DTSTAMP:20261009T000000Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261102
+SUMMARY:UCI Indoor Cycling World Championships
+DESCRIPTION:30 October–1 November 2026. Championship sessions; precise session times and Australian coverage to be confirmed.
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
+UID:uci-urban-worlds-2026@sandy-calendars
+DTSTAMP:20261009T000000Z
+DTSTART;VALUE=DATE:20261103
+DTEND;VALUE=DATE:20261108
+SUMMARY:UCI Urban Cycling World Championships
+DESCRIPTION:3–7 November 2026. Championship sessions; precise session times and Australian coverage to be confirmed.
+STATUS:TENTATIVE
+END:VEVENT
 END:VCALENDAR
