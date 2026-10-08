@@ -157,8 +157,8 @@ def road_calendar():
     with urllib.request.urlopen(request, timeout=25) as response:
         raw = response.read().decode("utf-8-sig")
     # Unfold iCalendar continuation lines, without importing any outcomes.
-    raw = raw.replace("\\r\\n", "\\n")
-    raw = __import__("re").sub(r"\\n[ \\t]", "", raw)
+    raw = raw.replace("\r\n", "\n")
+    raw = __import__("re").sub(r"\n[ \t]", "", raw)
     allow = ("paris-roubaix", "milano-sanremo", "milan-san remo", "ronde van vlaanderen",
              "tour of flanders", "liège-bastogne-liège", "liege-bastogne-liege",
              "il lombardia", "tour de france", "giro d'italia", "giro d’italia",
@@ -187,7 +187,7 @@ def road_calendar():
             continue
         stats["eligible_races"] += 1
         datevalue = lines.get("DTSTART;VALUE=DATE", lines.get("DTSTART", ""))
-        if not __import__("re").fullmatch(r"\\d{8}", datevalue):
+        if not __import__("re").fullmatch(r"\d{8}", datevalue):
             stats["unsupported_dates"] += 1
             continue  # Ignore ambiguous time zones until individually verified.
         day = dt.datetime.strptime(datevalue, "%Y%m%d").date()
