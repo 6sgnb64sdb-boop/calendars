@@ -153,6 +153,38 @@
       "description": "UCI calendar lists 29 October\u20131 November 2026. All-day placeholder; individual sessions and Australian broadcaster not yet confirmed."
     },
     {
+      "uid": "uci-indoor-worlds-2026",
+      "title": "UCI Indoor Cycling World Championships",
+      "start": "2026-10-30",
+      "end": "2026-11-02",
+      "location": "Ludwigsburg, Germany",
+      "description": "Official UCI schedule: 30 October\u20131 November 2026. Includes artistic cycling and cycle-ball for men's, women's and mixed categories. All-day until session times verified. https://www.uci.org/competition-details/2026/IND/77944"
+    },
+    {
+      "uid": "uci-urban-worlds-2026",
+      "title": "UCI Urban Cycling World Championships \u2013 Trials",
+      "start": "2026-11-03",
+      "end": "2026-11-08",
+      "location": "Riyadh, Saudi Arabia",
+      "description": "Official UCI Trials championship dates: 3\u20137 November 2026. Men's, women's, junior and mixed events. All-day until individual start times verified. https://www.uci.org/competition-details/2026/TRI/74373"
+    },
+    {
+      "uid": "marathon-chicago-marathon-2026",
+      "title": "Marathon: Chicago Marathon",
+      "start": "2026-10-11",
+      "end": "2026-10-12",
+      "location": "Chicago, USA",
+      "description": "World Marathon Major. Official race date; all-day until elite start times and Australian broadcast are verified. Source: https://www.chicagomarathon.com/about/future-event-dates/"
+    },
+    {
+      "uid": "marathon-new-york-city-marathon-2026",
+      "title": "Marathon: New York City Marathon",
+      "start": "2026-11-01",
+      "end": "2026-11-02",
+      "location": "New York City, USA",
+      "description": "World Marathon Major. Official race date; all-day until elite start times and Australian broadcast are verified. Source: https://www.baa.org/wp-content/uploads/2026/04/April14-BM26-Media-Guide-Pages_UPDATE-ForOnlineL.pdf"
+    },
+    {
       "uid": "soccer-eng.1-401879268",
       "title": "Premier League: Arsenal v Leeds United",
       "start": "2026-10-10T11:30:00+00:00",
@@ -233,30 +265,13 @@
       "location": ""
     }
   ],
-  "generated_at": "2026-10-08T22:02:39.732453+00:00",
+  "generated_at": "2026-10-08T22:21:20.827697+00:00",
   "coverage": {
     "NHL Pittsburgh": 12,
     "MLB Cleveland": 2,
     "Hawthorn AFL/AFLW": 2,
-    "UCI cycling championships": 3,
-    "UCI official programme diagnostics": {
-      "source": "UCI MTB 2027",
-      "dates_detected": [],
-      "expected_dates_matched": [],
-      "expected_dates_missing": [
-        "2027-08-26",
-        "2027-08-27",
-        "2027-08-30",
-        "2027-08-31",
-        "2027-09-01",
-        "2027-09-02",
-        "2027-09-03",
-        "2027-09-04"
-      ],
-      "automatic_import_enabled": false,
-      "events_added": 0
-    },
-    "UCI official calendar discovery": 0,
+    "UCI cycling championships": 5,
+    "World Marathon Majors": 2,
     "Men road feed diagnostics": {
       "feed_events": 290,
       "eligible_races": 38,
