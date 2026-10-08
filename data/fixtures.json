@@ -1,3 +1,132 @@
 {
-  "events": []
+  "events": [
+    {
+      "uid": "nhl-2026020068",
+      "title": "NHL: PIT @ CBJ",
+      "start": "2026-10-09T23:00:00+00:00",
+      "end": "2026-10-10T02:00:00+00:00",
+      "description": "Pittsburgh Penguins. Australia: check ESPN via Disney+, Kayo/Foxtel and NHL coverage.",
+      "location": ""
+    },
+    {
+      "uid": "nhl-2026020077",
+      "title": "NHL: DAL @ PIT",
+      "start": "2026-10-10T23:00:00+00:00",
+      "end": "2026-10-11T02:00:00+00:00",
+      "description": "Pittsburgh Penguins. Australia: check ESPN via Disney+, Kayo/Foxtel and NHL coverage.",
+      "location": ""
+    },
+    {
+      "uid": "nhl-2026020098",
+      "title": "NHL: PIT @ CHI",
+      "start": "2026-10-14T00:00:00+00:00",
+      "end": "2026-10-14T03:00:00+00:00",
+      "description": "Pittsburgh Penguins. Australia: check ESPN via Disney+, Kayo/Foxtel and NHL coverage.",
+      "location": ""
+    },
+    {
+      "uid": "nhl-2026020119",
+      "title": "NHL: PIT @ COL",
+      "start": "2026-10-17T01:00:00+00:00",
+      "end": "2026-10-17T04:00:00+00:00",
+      "description": "Pittsburgh Penguins. Australia: check ESPN via Disney+, Kayo/Foxtel and NHL coverage.",
+      "location": ""
+    },
+    {
+      "uid": "nhl-2026020134",
+      "title": "NHL: PIT @ VGK",
+      "start": "2026-10-18T02:00:00+00:00",
+      "end": "2026-10-18T05:00:00+00:00",
+      "description": "Pittsburgh Penguins. Australia: check ESPN via Disney+, Kayo/Foxtel and NHL coverage.",
+      "location": ""
+    },
+    {
+      "uid": "nhl-2026020140",
+      "title": "NHL: PIT @ UTA",
+      "start": "2026-10-20T01:00:00+00:00",
+      "end": "2026-10-20T04:00:00+00:00",
+      "description": "Pittsburgh Penguins. Australia: check ESPN via Disney+, Kayo/Foxtel and NHL coverage.",
+      "location": ""
+    },
+    {
+      "uid": "nhl-2026020158",
+      "title": "NHL: FLA @ PIT",
+      "start": "2026-10-22T23:00:00+00:00",
+      "end": "2026-10-23T02:00:00+00:00",
+      "description": "Pittsburgh Penguins. Australia: check ESPN via Disney+, Kayo/Foxtel and NHL coverage.",
+      "location": ""
+    },
+    {
+      "uid": "nhl-2026020172",
+      "title": "NHL: NSH @ PIT",
+      "start": "2026-10-24T23:00:00+00:00",
+      "end": "2026-10-25T02:00:00+00:00",
+      "description": "Pittsburgh Penguins. Australia: check ESPN via Disney+, Kayo/Foxtel and NHL coverage.",
+      "location": ""
+    },
+    {
+      "uid": "nhl-2026020205",
+      "title": "NHL: UTA @ PIT",
+      "start": "2026-10-29T23:00:00+00:00",
+      "end": "2026-10-30T02:00:00+00:00",
+      "description": "Pittsburgh Penguins. Australia: check ESPN via Disney+, Kayo/Foxtel and NHL coverage.",
+      "location": ""
+    },
+    {
+      "uid": "nhl-2026020223",
+      "title": "NHL: PIT @ MTL",
+      "start": "2026-10-31T23:00:00+00:00",
+      "end": "2026-11-01T02:00:00+00:00",
+      "description": "Pittsburgh Penguins. Australia: check ESPN via Disney+, Kayo/Foxtel and NHL coverage.",
+      "location": ""
+    },
+    {
+      "uid": "nhl-2026020242",
+      "title": "NHL: VGK @ PIT",
+      "start": "2026-11-04T00:00:00+00:00",
+      "end": "2026-11-04T03:00:00+00:00",
+      "description": "Pittsburgh Penguins. Australia: check ESPN via Disney+, Kayo/Foxtel and NHL coverage.",
+      "location": ""
+    },
+    {
+      "uid": "nhl-2026020257",
+      "title": "NHL: BOS @ PIT",
+      "start": "2026-11-06T00:00:00+00:00",
+      "end": "2026-11-06T03:00:00+00:00",
+      "description": "Pittsburgh Penguins. Australia: check ESPN via Disney+, Kayo/Foxtel and NHL coverage.",
+      "location": ""
+    },
+    {
+      "uid": "mlb-849832",
+      "title": "MLB: Cleveland Guardians @ Chicago White Sox",
+      "start": "2026-10-09T00:00:00+00:00",
+      "end": "2026-10-09T03:30:00+00:00",
+      "description": "Cleveland Guardians. Australia: MLB.TV; selected games on ESPN via Disney+/Kayo/Foxtel.",
+      "location": "Rate Field"
+    },
+    {
+      "uid": "mlb-849831",
+      "title": "MLB: Chicago White Sox @ Cleveland Guardians",
+      "start": "2026-10-11T00:00:00+00:00",
+      "end": "2026-10-11T03:30:00+00:00",
+      "description": "Cleveland Guardians. Australia: MLB.TV; selected games on ESPN via Disney+/Kayo/Foxtel.",
+      "location": "Progressive Field"
+    }
+  ],
+  "generated_at": "2026-10-08T21:22:54.411188+00:00",
+  "coverage": {
+    "NHL Pittsburgh": 12,
+    "MLB Cleveland": 2,
+    "Football eng.1": 0,
+    "Football eng.fa": 0,
+    "Football eng.league_cup": 0,
+    "Football uefa.champions": 0,
+    "Football uefa.europa": 0,
+    "Football uefa.europa.conf": 0,
+    "Football usa.1": 0,
+    "Football fra.1": 0,
+    "Football fra.2": 0,
+    "Football uefa.nations": 0,
+    "Football fifa.friendly": 0
+  }
 }

@@ -536,7 +536,6 @@ LOCATION:GEODIS Park
 DESCRIPTION:Australia: Apple TV. Fixture listing currently shows Nov 1.
 STATUS:CONFIRMED
 END:VEVENT
-X-LAST-VERIFIED:20261007T073100+1000
 BEGIN:VEVENT
 UID:uci-gravel-worlds-2026-women@sandy-calendars
 DTSTAMP:20261008T202300Z
@@ -624,5 +623,133 @@ DTEND;VALUE=DATE:20261108
 SUMMARY:UCI Urban Cycling World Championships
 DESCRIPTION:3–7 November 2026. Championship sessions; precise session times and Australian coverage to be confirmed.
 STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
+UID:nhl-2026020068@sandy-calendars
+DTSTAMP:20261008T212256Z
+DTSTART;TZID=Australia/Brisbane:20261010T090000
+DTEND;TZID=Australia/Brisbane:20261010T120000
+SUMMARY:NHL: PIT @ CBJ
+DESCRIPTION:Pittsburgh Penguins. Australia: check ESPN via Disney+\, Kayo/Foxtel and NHL coverage.
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:nhl-2026020077@sandy-calendars
+DTSTAMP:20261008T212256Z
+DTSTART;TZID=Australia/Brisbane:20261011T090000
+DTEND;TZID=Australia/Brisbane:20261011T120000
+SUMMARY:NHL: DAL @ PIT
+DESCRIPTION:Pittsburgh Penguins. Australia: check ESPN via Disney+\, Kayo/Foxtel and NHL coverage.
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:nhl-2026020098@sandy-calendars
+DTSTAMP:20261008T212256Z
+DTSTART;TZID=Australia/Brisbane:20261014T100000
+DTEND;TZID=Australia/Brisbane:20261014T130000
+SUMMARY:NHL: PIT @ CHI
+DESCRIPTION:Pittsburgh Penguins. Australia: check ESPN via Disney+\, Kayo/Foxtel and NHL coverage.
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:nhl-2026020119@sandy-calendars
+DTSTAMP:20261008T212256Z
+DTSTART;TZID=Australia/Brisbane:20261017T110000
+DTEND;TZID=Australia/Brisbane:20261017T140000
+SUMMARY:NHL: PIT @ COL
+DESCRIPTION:Pittsburgh Penguins. Australia: check ESPN via Disney+\, Kayo/Foxtel and NHL coverage.
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:nhl-2026020134@sandy-calendars
+DTSTAMP:20261008T212256Z
+DTSTART;TZID=Australia/Brisbane:20261018T120000
+DTEND;TZID=Australia/Brisbane:20261018T150000
+SUMMARY:NHL: PIT @ VGK
+DESCRIPTION:Pittsburgh Penguins. Australia: check ESPN via Disney+\, Kayo/Foxtel and NHL coverage.
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:nhl-2026020140@sandy-calendars
+DTSTAMP:20261008T212256Z
+DTSTART;TZID=Australia/Brisbane:20261020T110000
+DTEND;TZID=Australia/Brisbane:20261020T140000
+SUMMARY:NHL: PIT @ UTA
+DESCRIPTION:Pittsburgh Penguins. Australia: check ESPN via Disney+\, Kayo/Foxtel and NHL coverage.
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:nhl-2026020158@sandy-calendars
+DTSTAMP:20261008T212256Z
+DTSTART;TZID=Australia/Brisbane:20261023T090000
+DTEND;TZID=Australia/Brisbane:20261023T120000
+SUMMARY:NHL: FLA @ PIT
+DESCRIPTION:Pittsburgh Penguins. Australia: check ESPN via Disney+\, Kayo/Foxtel and NHL coverage.
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:nhl-2026020172@sandy-calendars
+DTSTAMP:20261008T212256Z
+DTSTART;TZID=Australia/Brisbane:20261025T090000
+DTEND;TZID=Australia/Brisbane:20261025T120000
+SUMMARY:NHL: NSH @ PIT
+DESCRIPTION:Pittsburgh Penguins. Australia: check ESPN via Disney+\, Kayo/Foxtel and NHL coverage.
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:nhl-2026020205@sandy-calendars
+DTSTAMP:20261008T212256Z
+DTSTART;TZID=Australia/Brisbane:20261030T090000
+DTEND;TZID=Australia/Brisbane:20261030T120000
+SUMMARY:NHL: UTA @ PIT
+DESCRIPTION:Pittsburgh Penguins. Australia: check ESPN via Disney+\, Kayo/Foxtel and NHL coverage.
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:nhl-2026020223@sandy-calendars
+DTSTAMP:20261008T212256Z
+DTSTART;TZID=Australia/Brisbane:20261101T090000
+DTEND;TZID=Australia/Brisbane:20261101T120000
+SUMMARY:NHL: PIT @ MTL
+DESCRIPTION:Pittsburgh Penguins. Australia: check ESPN via Disney+\, Kayo/Foxtel and NHL coverage.
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:nhl-2026020242@sandy-calendars
+DTSTAMP:20261008T212256Z
+DTSTART;TZID=Australia/Brisbane:20261104T100000
+DTEND;TZID=Australia/Brisbane:20261104T130000
+SUMMARY:NHL: VGK @ PIT
+DESCRIPTION:Pittsburgh Penguins. Australia: check ESPN via Disney+\, Kayo/Foxtel and NHL coverage.
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:nhl-2026020257@sandy-calendars
+DTSTAMP:20261008T212256Z
+DTSTART;TZID=Australia/Brisbane:20261106T100000
+DTEND;TZID=Australia/Brisbane:20261106T130000
+SUMMARY:NHL: BOS @ PIT
+DESCRIPTION:Pittsburgh Penguins. Australia: check ESPN via Disney+\, Kayo/Foxtel and NHL coverage.
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:mlb-849832@sandy-calendars
+DTSTAMP:20261008T212256Z
+DTSTART;TZID=Australia/Brisbane:20261009T100000
+DTEND;TZID=Australia/Brisbane:20261009T133000
+SUMMARY:MLB: Cleveland Guardians @ Chicago White Sox
+LOCATION:Rate Field
+DESCRIPTION:Cleveland Guardians. Australia: MLB.TV\; selected games on ESPN via Disney+/Kayo/Foxtel.
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:mlb-849831@sandy-calendars
+DTSTAMP:20261008T212256Z
+DTSTART;TZID=Australia/Brisbane:20261011T100000
+DTEND;TZID=Australia/Brisbane:20261011T133000
+SUMMARY:MLB: Chicago White Sox @ Cleveland Guardians
+LOCATION:Progressive Field
+DESCRIPTION:Cleveland Guardians. Australia: MLB.TV\; selected games on ESPN via Disney+/Kayo/Foxtel.
+STATUS:CONFIRMED
 END:VEVENT
 END:VCALENDAR
