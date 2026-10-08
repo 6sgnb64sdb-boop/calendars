@@ -145,11 +145,65 @@ def cycling():
             start=event["start"], end=event["end"], location=event.get("location", ""),
             description=event.get("description", ""))
 
+def road_calendar():
+    """Discover men's major road races from a public subscription calendar.
+
+    Conservative allowlist avoids women's races, development events and duplicates
+    with already-published manually scheduled races. Dates are all-day until
+    official start times are verified. This is a third-party feed, not UCI API.
+    """
+    url = "https://calendar.google.com/calendar/ical/5c9dc1a627cf55f1653d17573c2df58075d949559ec87e484b0cf90fa78bbf6d%40group.calendar.google.com/public/basic.ics"
+    request = urllib.request.Request(url, headers={"User-Agent": "SandySportsCalendar/1.0"})
+    with urllib.request.urlopen(request, timeout=25) as response:
+        raw = response.read().decode("utf-8-sig")
+    # Unfold iCalendar continuation lines, without importing any outcomes.
+    raw = raw.replace("\\r\\n", "\\n")
+    raw = __import__("re").sub(r"\\n[ \\t]", "", raw)
+    allow = ("paris-roubaix", "milano-sanremo", "milan-san remo", "ronde van vlaanderen",
+             "tour of flanders", "liège-bastogne-liège", "liege-bastogne-liege",
+             "il lombardia", "tour de france", "giro d'italia", "giro d’italia",
+             "vuelta a españa", "vuelta ciclista a españa", "paris-nice",
+             "tirreno-adriatico", "tour de suisse", "tour de romandie",
+             "tour de pologne", "critérium du dauphiné", "criterium du dauphine",
+             "tour of guangxi", "strade bianche", "amstel gold race",
+             "la flèche wallonne", "la fleche wallonne", "gent-wevelgem",
+             "omloop nieuwsblad", "san sebastián", "san sebastian",
+             "tour down under", "cadel evans great ocean road race",
+             "gp québec", "gp quebec", "gp montréal", "gp montreal",
+             "tour of britain", "e3 saxo classic", "dwars door vlaanderen",
+             "es chborn-frankfurt", "eschborn-frankfurt", "tour of california")
+    blocked = ("women", "woman", "femmes", "feminine", "féminin", "femenina",
+               "ladies", "junior", "under 23", "u23", "u19", "u17", "espoirs",
+               "development", "amateur", "gran fondo")
+    today = TODAY.date()
+    for block in raw.split("BEGIN:VEVENT")[1:]:
+        lines = dict(line.split(":", 1) for line in block.split("END:VEVENT")[0].split("\\n")
+                     if ":" in line and line.split(":", 1)[0] in ("SUMMARY", "DTSTART;VALUE=DATE", "DTSTART", "UID"))
+        title = lines.get("SUMMARY", "").replace("\\,", ",").replace("\\;", ";").strip()
+        low = title.casefold()
+        if not any(term in low for term in allow) or any(term in low for term in blocked):
+            continue
+        datevalue = lines.get("DTSTART;VALUE=DATE", lines.get("DTSTART", ""))
+        if not __import__("re").fullmatch(r"\\d{8}", datevalue):
+            continue  # Ignore ambiguous time zones until individually verified.
+        day = dt.datetime.strptime(datevalue, "%Y%m%d").date()
+        if not today <= day <= today + dt.timedelta(days=45):
+            continue
+        # Do not create duplicates of manually published stage/race entries.
+        if ("lombardia" in low and day.year == 2026) or ("guangxi" in low and day.year == 2026):
+            continue
+        key = __import__("re").sub(r"[^a-z0-9]+", "-", low).strip("-")[:85]
+        uid = f"road-{day.isoformat()}-{key}"
+        EVENTS[uid] = dict(uid=uid, title="Cycling: " + title,
+                           start=day.isoformat(), end=(day + dt.timedelta(days=1)).isoformat(),
+                           description="Men's professional road race. Date from The Inner Ring public cycling calendar; start time and Australian broadcaster unconfirmed.")
+
 def main():
     source("NHL Pittsburgh", nhl)
     source("MLB Cleveland", mlb)
     source("Hawthorn AFL/AFLW", hawthorn)
     source("UCI cycling championships", cycling)
+    source("Men road calendar", road_calendar)
     for league, (label, followed) in SOCCER.items():
         source("Football " + league, lambda l=league, n=label, t=followed: soccer(l, n, t))
     # Never replace previously collected source data with an empty response.
