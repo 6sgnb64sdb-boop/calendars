@@ -1,6 +1,6 @@
 {
   "source": "https://worldathletics.org/competition/calendar-results",
-  "notes": "Officially listed 2027 athletics dates only; no guessed meeting times. Beijing championship uses one multi-day umbrella event, not a daily event.",
+  "notes": "Verified dates from World Athletics official calendar and press releases; manually maintained. Some 2027 Diamond League dates may change; all-day until session times and Australian broadcast confirmed.",
   "events": [
     {
       "uid": "athletics-diamond-league-doha-2027-05-07",
@@ -9,6 +9,86 @@
       "end": "2027-05-08",
       "location": "Doha, Qatar",
       "description": "Date from World Athletics official calendar. All-day until meeting start time and Australian broadcast confirmed. Source: https://worldathletics.org/competition/calendar-results"
+    },
+    {
+      "uid": "athletics-diamond-league-shanghai-2027-05-15",
+      "title": "Athletics: Diamond League – Shanghai",
+      "start": "2027-05-15",
+      "end": "2027-05-16",
+      "location": "Shanghai, China",
+      "description": "Date listed by World Athletics. All-day until official meeting start time and Australian broadcast verified. Source: https://worldathletics.org/competition/calendar-results"
+    },
+    {
+      "uid": "athletics-diamond-league-xiamen-2027-05-22",
+      "title": "Athletics: Diamond League – Xiamen",
+      "start": "2027-05-22",
+      "end": "2027-05-23",
+      "location": "Xiamen, China",
+      "description": "Date listed by World Athletics. All-day until official meeting start time and Australian broadcast verified. Source: https://worldathletics.org/competition/calendar-results"
+    },
+    {
+      "uid": "athletics-diamond-league-rome-golden-gala-2027-05-27",
+      "title": "Athletics: Diamond League – Rome (Golden Gala)",
+      "start": "2027-05-27",
+      "end": "2027-05-28",
+      "location": "Rome, Italy",
+      "description": "Date listed by World Athletics. All-day until official meeting start time and Australian broadcast verified. Source: https://worldathletics.org/competition/calendar-results"
+    },
+    {
+      "uid": "athletics-diamond-league-rabat-2027-05-30",
+      "title": "Athletics: Diamond League – Rabat",
+      "start": "2027-05-30",
+      "end": "2027-05-31",
+      "location": "Rabat, Morocco",
+      "description": "Date listed by World Athletics. All-day until official meeting start time and Australian broadcast verified. Source: https://worldathletics.org/competition/calendar-results"
+    },
+    {
+      "uid": "athletics-diamond-league-oslo-2027-06-03",
+      "title": "Athletics: Diamond League – Oslo",
+      "start": "2027-06-03",
+      "end": "2027-06-04",
+      "location": "Oslo, Norway",
+      "description": "Date listed by World Athletics. All-day until official meeting start time and Australian broadcast verified. Source: https://worldathletics.org/competition/calendar-results"
+    },
+    {
+      "uid": "athletics-diamond-league-stockholm-2027-06-06",
+      "title": "Athletics: Diamond League – Stockholm",
+      "start": "2027-06-06",
+      "end": "2027-06-07",
+      "location": "Stockholm, Sweden",
+      "description": "Date listed by World Athletics. All-day until official meeting start time and Australian broadcast verified. Source: https://worldathletics.org/competition/calendar-results"
+    },
+    {
+      "uid": "athletics-diamond-league-paris-2027-06-25",
+      "title": "Athletics: Diamond League – Paris",
+      "start": "2027-06-25",
+      "end": "2027-06-26",
+      "location": "Paris, France",
+      "description": "Date listed by World Athletics. All-day until official meeting start time and Australian broadcast verified. Source: https://worldathletics.org/competition/calendar-results"
+    },
+    {
+      "uid": "athletics-diamond-league-eugene-prefontaine-classic-2027-07-03",
+      "title": "Athletics: Diamond League – Eugene (Prefontaine Classic)",
+      "start": "2027-07-03",
+      "end": "2027-07-04",
+      "location": "Eugene, Oregon, USA",
+      "description": "Date listed by World Athletics. All-day until official meeting start time and Australian broadcast verified. Source: https://worldathletics.org/competition/calendar-results"
+    },
+    {
+      "uid": "athletics-diamond-league-monaco-2027-07-09",
+      "title": "Athletics: Diamond League – Monaco",
+      "start": "2027-07-09",
+      "end": "2027-07-10",
+      "location": "Monaco",
+      "description": "Date listed by World Athletics. All-day until official meeting start time and Australian broadcast verified. Source: https://worldathletics.org/competition/calendar-results"
+    },
+    {
+      "uid": "athletics-diamond-league-lausanne-2027-07-13",
+      "title": "Athletics: Diamond League – Lausanne",
+      "start": "2027-07-13",
+      "end": "2027-07-14",
+      "location": "Lausanne, Switzerland",
+      "description": "Date listed by World Athletics. All-day until official meeting start time and Australian broadcast verified. Source: https://worldathletics.org/competition/calendar-results"
     },
     {
       "uid": "athletics-diamond-league-london-2027-07-17",
@@ -65,6 +145,14 @@
       "end": "2027-09-20",
       "location": "National Stadium, Beijing, China",
       "description": "World Athletics confirmed 10–19 September 2027 (updated from earlier 11 September start). Men's and women's championship programme. All-day umbrella until session schedules confirmed. Source: https://worldathletics.org/competitions/world-athletics-championships/beijing27/news/press-releases/logo-mascot-slogan-beijing-27"
+    },
+    {
+      "uid": "athletics-world-mountain-trail-2027",
+      "title": "Athletics: World Mountain and Trail Running Championships – Cape Town 2027",
+      "start": "2027-10-06",
+      "end": "2027-10-11",
+      "location": "Cape Town, South Africa",
+      "description": "World Athletics confirmed 6–10 October 2027. Men's and women's championships. All-day umbrella pending session schedule. Source: https://worldathletics.org/news/press-releases/one-year-to-go-world-mountain-trail-running-championships-cape-town-2027"
     }
   ]
 }
