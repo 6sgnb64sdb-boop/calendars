@@ -81,6 +81,14 @@
       "end": "2027-11-08",
       "location": "New York City, USA",
       "description": "World Marathon Major. Official race date; all-day until elite start times and Australian broadcast are verified. Source: https://testcache.nyrr.org/tcsnycmarathon/runners/marathon-time-qualifiers"
+    },
+    {
+      "uid": "marathon-cape-town-marathon-2027",
+      "title": "Marathon: Cape Town Marathon",
+      "start": "2027-05-23",
+      "end": "2027-05-24",
+      "location": "Cape Town, South Africa",
+      "description": "Eighth Abbott World Marathon Major. Official date 23 May 2027. All-day until official start times and Australian broadcast confirmed. Source: https://capetownmarathon.com/africas1stmajor/"
     }
   ]
 }
