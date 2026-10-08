@@ -88,27 +88,29 @@ ALIASES = {"Leeds United": ("leeds united",), "Manchester United": ("manchester 
            "England": ("england",), "Australia": ("australia",)}
 
 def soccer(league, label, followed):
-    dates = TODAY.strftime("%Y%m%d") + "-" + END.strftime("%Y%m%d")
-    url = f"https://site.api.espn.com/apis/site/v2/sports/soccer/{league}/scoreboard?dates={TODAY.strftime('%Y%m%d')}&limit=500"
-    data = fetch(url)
-    for event in data.get("events", []):
-        competitors = (event.get("competitions") or [{}])[0].get("competitors", [])
-        if len(competitors) != 2:
-            continue
-        names = [c.get("team", {}).get("displayName", "") for c in competitors]
-        if not any(any(n.lower() in ALIASES[t] for n in names) for t in followed):
-            continue
-        if any(any(token in n.lower() for token in (" women", " u17", " u19", " u20", " u21", " u23", " youth")) for n in names):
-            continue
-        if event.get("status", {}).get("type", {}).get("completed"):
-            continue
-        start = event.get("date")
-        if not start:
-            continue
-        home = next((c.get("team", {}).get("displayName", "") for c in competitors if c.get("homeAway") == "home"), names[0])
-        away = next((c.get("team", {}).get("displayName", "") for c in competitors if c.get("homeAway") == "away"), names[1])
-        viewing = "Stan Sport" if league in ("eng.1", "uefa.champions", "uefa.europa", "uefa.europa.conf") else "Australian broadcaster to be confirmed"
-        add(f"soccer-{league}-{event['id']}", f"{label}: {home} v {away}", start, 2.5, "Australia viewing: " + viewing)
+    # ESPN accepts individual dates; scan the next 7 days first to limit API load.
+    for day_offset in range(8):
+        day = (TODAY + dt.timedelta(days=day_offset)).strftime("%Y%m%d")
+        url = f"https://site.api.espn.com/apis/site/v2/sports/soccer/{league}/scoreboard?dates={day}&limit=500"
+        data = fetch(url)
+        for event in data.get("events", []):
+            competitors = (event.get("competitions") or [{}])[0].get("competitors", [])
+            if len(competitors) != 2:
+                continue
+            names = [c.get("team", {}).get("displayName", "") for c in competitors]
+            if not any(any(n.lower() in ALIASES[t] for n in names) for t in followed):
+                continue
+            if any(any(token in n.lower() for token in (" women", " u17", " u19", " u20", " u21", " u23", " youth")) for n in names):
+                continue
+            if event.get("status", {}).get("type", {}).get("completed"):
+                continue
+            start = event.get("date")
+            if not start:
+                continue
+            home = next((c.get("team", {}).get("displayName", "") for c in competitors if c.get("homeAway") == "home"), names[0])
+            away = next((c.get("team", {}).get("displayName", "") for c in competitors if c.get("homeAway") == "away"), names[1])
+            viewing = "Stan Sport" if league in ("eng.1", "uefa.champions", "uefa.europa", "uefa.europa.conf") else "Australian broadcaster to be confirmed"
+            add(f"soccer-{league}-{event['id']}", f"{label}: {home} v {away}", start, 2.5, "Australia viewing: " + viewing)
 
 def main():
     source("NHL Pittsburgh", nhl)
