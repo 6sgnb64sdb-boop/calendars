@@ -1,0 +1,86 @@
+{
+  "source": "Official marathon organiser schedules and race announcements",
+  "note": "Manually verified race dates, no inferred annual recurrence. Seven tracked marathon venues; London 2027 split into separate men's and women's elite dates. Date-only until Australian start times are verified.",
+  "events": [
+    {
+      "uid": "marathon-chicago-marathon-2026",
+      "title": "Marathon: Chicago Marathon",
+      "start": "2026-10-11",
+      "end": "2026-10-12",
+      "location": "Chicago, USA",
+      "description": "World Marathon Major. Official race date; all-day until elite start times and Australian broadcast are verified. Source: https://www.chicagomarathon.com/about/future-event-dates/"
+    },
+    {
+      "uid": "marathon-new-york-city-marathon-2026",
+      "title": "Marathon: New York City Marathon",
+      "start": "2026-11-01",
+      "end": "2026-11-02",
+      "location": "New York City, USA",
+      "description": "World Marathon Major. Official race date; all-day until elite start times and Australian broadcast are verified. Source: https://www.baa.org/wp-content/uploads/2026/04/April14-BM26-Media-Guide-Pages_UPDATE-ForOnlineL.pdf"
+    },
+    {
+      "uid": "marathon-tokyo-marathon-2027",
+      "title": "Marathon: Tokyo Marathon",
+      "start": "2027-03-07",
+      "end": "2027-03-08",
+      "location": "Tokyo, Japan",
+      "description": "World Marathon Major. Official race date; all-day until elite start times and Australian broadcast are verified. Source: https://www.marathon.tokyo/en/20th/"
+    },
+    {
+      "uid": "marathon-boston-marathon-2027",
+      "title": "Marathon: Boston Marathon",
+      "start": "2027-04-19",
+      "end": "2027-04-20",
+      "location": "Boston, USA",
+      "description": "World Marathon Major. Official race date; all-day until elite start times and Australian broadcast are verified. Source: https://www.baa.org/races/boston-marathon/"
+    },
+    {
+      "uid": "marathon-london-marathon-men-s-elite-2027",
+      "title": "Marathon: London Marathon – Men's Elite",
+      "start": "2027-04-24",
+      "end": "2027-04-25",
+      "location": "London, UK",
+      "description": "World Marathon Major. Official race date; all-day until elite start times and Australian broadcast are verified. Source: https://www.londonmarathonevents.co.uk/london-marathon/event-overview"
+    },
+    {
+      "uid": "marathon-london-marathon-women-s-elite-2027",
+      "title": "Marathon: London Marathon – Women's Elite",
+      "start": "2027-04-25",
+      "end": "2027-04-26",
+      "location": "London, UK",
+      "description": "World Marathon Major. Official race date; all-day until elite start times and Australian broadcast are verified. Source: https://www.londonmarathonevents.co.uk/london-marathon/event-overview"
+    },
+    {
+      "uid": "marathon-sydney-marathon-2027",
+      "title": "Marathon: Sydney Marathon",
+      "start": "2027-08-29",
+      "end": "2027-08-30",
+      "location": "Sydney, Australia",
+      "description": "World Marathon Major. Official race date; all-day until elite start times and Australian broadcast are verified. Source: https://www.tcssydneymarathon.com/frequently-asked-questions"
+    },
+    {
+      "uid": "marathon-berlin-marathon-2027",
+      "title": "Marathon: Berlin Marathon",
+      "start": "2027-09-26",
+      "end": "2027-09-27",
+      "location": "Berlin, Germany",
+      "description": "World Marathon Major. Official race date; all-day until elite start times and Australian broadcast are verified. Source: https://www.generali-berlin-marathon.com/en/"
+    },
+    {
+      "uid": "marathon-chicago-marathon-2027",
+      "title": "Marathon: Chicago Marathon",
+      "start": "2027-10-10",
+      "end": "2027-10-11",
+      "location": "Chicago, USA",
+      "description": "World Marathon Major. Official race date; all-day until elite start times and Australian broadcast are verified. Source: https://www.chicagomarathon.com/about/future-event-dates/"
+    },
+    {
+      "uid": "marathon-new-york-city-marathon-2027",
+      "title": "Marathon: New York City Marathon",
+      "start": "2027-11-07",
+      "end": "2027-11-08",
+      "location": "New York City, USA",
+      "description": "World Marathon Major. Official race date; all-day until elite start times and Australian broadcast are verified. Source: https://testcache.nyrr.org/tcsnycmarathon/runners/marathon-time-qualifiers"
+    }
+  ]
+}
