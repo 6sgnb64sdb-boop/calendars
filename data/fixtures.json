@@ -1,14 +1,6 @@
 {
   "events": [
     {
-      "uid": "nhl-2026020068",
-      "title": "NHL: PIT @ CBJ",
-      "start": "2026-10-09T23:00:00+00:00",
-      "end": "2026-10-10T02:00:00+00:00",
-      "description": "Pittsburgh Penguins. Australia: check ESPN via Disney+, Kayo/Foxtel and NHL coverage.",
-      "location": ""
-    },
-    {
       "uid": "nhl-2026020077",
       "title": "NHL: DAL @ PIT",
       "start": "2026-10-10T23:00:00+00:00",
@@ -97,12 +89,12 @@
       "location": ""
     },
     {
-      "uid": "mlb-849832",
-      "title": "MLB: Cleveland Guardians @ Chicago White Sox",
-      "start": "2026-10-09T00:00:00+00:00",
-      "end": "2026-10-09T03:30:00+00:00",
-      "description": "Cleveland Guardians. Australia: MLB.TV; selected games on ESPN via Disney+/Kayo/Foxtel.",
-      "location": "Rate Field"
+      "uid": "nhl-2026020275",
+      "title": "NHL: PIT @ LAK",
+      "start": "2026-11-08T02:00:00+00:00",
+      "end": "2026-11-08T05:00:00+00:00",
+      "description": "Pittsburgh Penguins. Australia: check ESPN via Disney+, Kayo/Foxtel and NHL coverage.",
+      "location": ""
     },
     {
       "uid": "mlb-849831",
@@ -321,10 +313,10 @@
       "location": ""
     }
   ],
-  "generated_at": "2026-10-08T22:49:03.483825+00:00",
+  "generated_at": "2026-10-10T00:51:45.255921+00:00",
   "coverage": {
     "NHL Pittsburgh": 12,
-    "MLB Cleveland": 2,
+    "MLB Cleveland": 1,
     "Hawthorn AFL/AFLW": 4,
     "UCI cycling championships": 5,
     "World Marathon Majors": 2,
