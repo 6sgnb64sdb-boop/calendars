@@ -1,14 +1,6 @@
 {
   "events": [
     {
-      "uid": "nhl-2026020077",
-      "title": "NHL: DAL @ PIT",
-      "start": "2026-10-10T23:00:00+00:00",
-      "end": "2026-10-11T02:00:00+00:00",
-      "description": "Pittsburgh Penguins. Australia: check ESPN via Disney+, Kayo/Foxtel and NHL coverage.",
-      "location": ""
-    },
-    {
       "uid": "nhl-2026020098",
       "title": "NHL: PIT @ CHI",
       "start": "2026-10-14T00:00:00+00:00",
@@ -97,12 +89,12 @@
       "location": ""
     },
     {
-      "uid": "mlb-849831",
-      "title": "MLB: Chicago White Sox @ Cleveland Guardians",
-      "start": "2026-10-11T00:00:00+00:00",
-      "end": "2026-10-11T03:30:00+00:00",
-      "description": "Cleveland Guardians. Australia: MLB.TV; selected games on ESPN via Disney+/Kayo/Foxtel.",
-      "location": "Progressive Field"
+      "uid": "nhl-2026020282",
+      "title": "NHL: PIT @ ANA",
+      "start": "2026-11-09T01:00:00+00:00",
+      "end": "2026-11-09T04:00:00+00:00",
+      "description": "Pittsburgh Penguins. Australia: check ESPN via Disney+, Kayo/Foxtel and NHL coverage.",
+      "location": ""
     },
     {
       "uid": "aflw-haw-2026-r9",
@@ -233,22 +225,6 @@
       "description": "Socceroos senior men's international. Kick-off TBC; November 17 local, potentially November 18 in Australia. Date-only placeholder; Australia viewing: Paramount+. Official: https://footballaustralia.com.au/news/commbank-socceroos-face-qatar-and-jordan-ahead-afc-asian-cup-2027tm?page=2"
     },
     {
-      "uid": "soccer-eng.1-401879268",
-      "title": "Premier League: Arsenal v Leeds United",
-      "start": "2026-10-10T11:30:00+00:00",
-      "end": "2026-10-10T14:00:00+00:00",
-      "description": "Australia viewing: Stan Sport",
-      "location": ""
-    },
-    {
-      "uid": "soccer-eng.1-401878773",
-      "title": "Premier League: Manchester United v Tottenham Hotspur",
-      "start": "2026-10-10T16:30:00+00:00",
-      "end": "2026-10-10T19:00:00+00:00",
-      "description": "Australia viewing: Stan Sport",
-      "location": ""
-    },
-    {
       "uid": "soccer-eng.1-401879260",
       "title": "Premier League: Leeds United v Manchester United",
       "start": "2026-10-18T13:00:00+00:00",
@@ -273,14 +249,6 @@
       "location": ""
     },
     {
-      "uid": "soccer-usa.1-761856",
-      "title": "MLS: Austin FC v Nashville SC",
-      "start": "2026-10-11T00:30:00+00:00",
-      "end": "2026-10-11T03:00:00+00:00",
-      "description": "Australia viewing: Australian broadcaster to be confirmed",
-      "location": ""
-    },
-    {
       "uid": "soccer-usa.1-761866",
       "title": "MLS: Nashville SC v Sporting Kansas City",
       "start": "2026-10-15T00:30:00+00:00",
@@ -293,6 +261,14 @@
       "title": "MLS: San Jose Earthquakes v Nashville SC",
       "start": "2026-10-18T02:30:00+00:00",
       "end": "2026-10-18T05:00:00+00:00",
+      "description": "Australia viewing: Australian broadcaster to be confirmed",
+      "location": ""
+    },
+    {
+      "uid": "soccer-usa.1-761903",
+      "title": "MLS: CF Montr\u00e9al v Nashville SC",
+      "start": "2026-10-24T17:30:00+00:00",
+      "end": "2026-10-24T20:00:00+00:00",
       "description": "Australia viewing: Australian broadcaster to be confirmed",
       "location": ""
     },
@@ -311,12 +287,20 @@
       "end": "2026-10-17T21:15:00+00:00",
       "description": "Australia viewing: Australian broadcaster to be confirmed",
       "location": ""
+    },
+    {
+      "uid": "soccer-fra.1-401876423",
+      "title": "Ligue 1: Toulouse v Troyes",
+      "start": "2026-10-24T15:15:00+00:00",
+      "end": "2026-10-24T17:45:00+00:00",
+      "description": "Australia viewing: Australian broadcaster to be confirmed",
+      "location": ""
     }
   ],
-  "generated_at": "2026-10-10T00:51:45.255921+00:00",
+  "generated_at": "2026-10-11T00:14:24.662619+00:00",
   "coverage": {
     "NHL Pittsburgh": 12,
-    "MLB Cleveland": 1,
+    "MLB Cleveland": 0,
     "Hawthorn AFL/AFLW": 4,
     "UCI cycling championships": 5,
     "World Marathon Majors": 2,
@@ -326,13 +310,13 @@
     "Men road feed diagnostics": {
       "feed_events": 290,
       "eligible_races": 38,
-      "outside_window": 36,
+      "outside_window": 37,
       "unsupported_dates": 0,
-      "existing_races": 2,
+      "existing_races": 1,
       "added": 0
     },
     "Men road calendar": 0,
-    "Football eng.1": 3,
+    "Football eng.1": 1,
     "Football eng.fa": 0,
     "Football eng.league_cup": 0,
     "Football uefa.champions": 2,
@@ -342,7 +326,7 @@
     "Football usa.open": 0,
     "Football concacaf.champions": 0,
     "Football concacaf.leagues.cup": 0,
-    "Football fra.1": 2,
+    "Football fra.1": 3,
     "Football fra.2": 0,
     "Football fra.coupe_de_france": 0,
     "Football uefa.nations": 0,
