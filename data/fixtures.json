@@ -99,8 +99,8 @@
     {
       "uid": "mlb-849818",
       "title": "MLB: Tampa Bay Rays @ Cleveland Guardians",
-      "start": "2026-10-15T22:00:00+00:00",
-      "end": "2026-10-16T01:30:00+00:00",
+      "start": "2026-10-15T17:00:00+00:00",
+      "end": "2026-10-15T20:30:00+00:00",
       "description": "Cleveland Guardians. Australia: MLB.TV; selected games on ESPN via Disney+/Kayo/Foxtel.",
       "location": "Progressive Field"
     },
@@ -327,9 +327,17 @@
       "end": "2026-11-12T22:15:00+00:00",
       "description": "Australia viewing: Australian broadcaster to be confirmed",
       "location": ""
+    },
+    {
+      "uid": "soccer-fifa.friendly-401919978",
+      "title": "International Friendlies: Qatar v Australia",
+      "start": "2026-11-13T14:45:00+00:00",
+      "end": "2026-11-13T17:15:00+00:00",
+      "description": "Australia viewing: Australian broadcaster to be confirmed",
+      "location": ""
     }
   ],
-  "generated_at": "2026-10-14T00:18:30.398120+00:00",
+  "generated_at": "2026-10-14T23:55:01.571765+00:00",
   "coverage": {
     "NHL Pittsburgh": 12,
     "MLB Cleveland": 5,
@@ -362,7 +370,7 @@
     "Football fra.2": 0,
     "Football fra.coupe_de_france": 0,
     "Football uefa.nations": 1,
-    "Football fifa.friendly": 0,
+    "Football fifa.friendly": 1,
     "Football fifa.world": 0,
     "Football afc.asian.cup": 0
   }
