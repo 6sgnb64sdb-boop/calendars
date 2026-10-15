@@ -97,14 +97,6 @@
       "location": ""
     },
     {
-      "uid": "mlb-849818",
-      "title": "MLB: Tampa Bay Rays @ Cleveland Guardians",
-      "start": "2026-10-15T17:00:00+00:00",
-      "end": "2026-10-15T20:30:00+00:00",
-      "description": "Cleveland Guardians. Australia: MLB.TV; selected games on ESPN via Disney+/Kayo/Foxtel.",
-      "location": "Progressive Field"
-    },
-    {
       "uid": "mlb-849817",
       "title": "MLB: Tampa Bay Rays @ Cleveland Guardians",
       "start": "2026-10-16T22:00:00+00:00",
@@ -209,14 +201,6 @@
       "description": "World Marathon Major. Official race date; all-day until elite start times and Australian broadcast are verified. Source: https://www.baa.org/wp-content/uploads/2026/04/April14-BM26-Media-Guide-Pages_UPDATE-ForOnlineL.pdf"
     },
     {
-      "uid": "ultra-moab-240-2026",
-      "title": "Ultra: Moab 240",
-      "start": "2026-10-09",
-      "end": "2026-10-14",
-      "location": "Moab, Utah, USA",
-      "description": "Multi-day endurance ultramarathon; all-day event covering published race/event window. Follow official organiser for live tracking and streaming; no scores or results. Source: https://www.destinationtrailrun.com/race-calendar/2026-moab-240-adfc8-hkyzr"
-    },
-    {
       "uid": "intl-eng-cro-2026-11-12",
       "title": "UEFA Nations League: England v Croatia",
       "start": "2026-11-12T19:45:00+00:00",
@@ -281,14 +265,6 @@
       "location": ""
     },
     {
-      "uid": "soccer-usa.1-761866",
-      "title": "MLS: Nashville SC v Sporting Kansas City",
-      "start": "2026-10-15T00:30:00+00:00",
-      "end": "2026-10-15T03:00:00+00:00",
-      "description": "Australia viewing: Australian broadcaster to be confirmed",
-      "location": ""
-    },
-    {
       "uid": "soccer-usa.1-761886",
       "title": "MLS: San Jose Earthquakes v Nashville SC",
       "start": "2026-10-18T02:30:00+00:00",
@@ -301,6 +277,14 @@
       "title": "MLS: CF Montr\u00e9al v Nashville SC",
       "start": "2026-10-24T17:30:00+00:00",
       "end": "2026-10-24T20:00:00+00:00",
+      "description": "Australia viewing: Australian broadcaster to be confirmed",
+      "location": ""
+    },
+    {
+      "uid": "soccer-usa.1-761914",
+      "title": "MLS: Nashville SC v Philadelphia Union",
+      "start": "2026-10-29T00:30:00+00:00",
+      "end": "2026-10-29T03:00:00+00:00",
       "description": "Australia viewing: Australian broadcaster to be confirmed",
       "location": ""
     },
@@ -337,15 +321,15 @@
       "location": ""
     }
   ],
-  "generated_at": "2026-10-14T23:55:01.571765+00:00",
+  "generated_at": "2026-10-15T23:41:41.007361+00:00",
   "coverage": {
     "NHL Pittsburgh": 12,
-    "MLB Cleveland": 5,
+    "MLB Cleveland": 4,
     "Hawthorn AFL/AFLW": 3,
     "UCI cycling championships": 5,
     "World Marathon Majors": 1,
     "Major athletics": 0,
-    "Endurance ultras": 1,
+    "Endurance ultras": 0,
     "Confirmed internationals": 4,
     "Men road feed diagnostics": {
       "feed_events": 289,
