@@ -97,10 +97,18 @@
       "location": ""
     },
     {
+      "uid": "nhl-2026020317",
+      "title": "NHL: OTT @ PIT",
+      "start": "2026-11-15T00:00:00+00:00",
+      "end": "2026-11-15T03:00:00+00:00",
+      "description": "Pittsburgh Penguins. Australia: check ESPN via Disney+, Kayo/Foxtel and NHL coverage.",
+      "location": ""
+    },
+    {
       "uid": "mlb-849817",
       "title": "MLB: Tampa Bay Rays @ Cleveland Guardians",
-      "start": "2026-10-16T22:00:00+00:00",
-      "end": "2026-10-17T01:30:00+00:00",
+      "start": "2026-10-17T00:00:00+00:00",
+      "end": "2026-10-17T03:30:00+00:00",
       "description": "Cleveland Guardians. Australia: MLB.TV; selected games on ESPN via Disney+/Kayo/Foxtel.",
       "location": "Progressive Field"
     },
@@ -115,8 +123,8 @@
     {
       "uid": "mlb-849815",
       "title": "MLB: Cleveland Guardians @ Tampa Bay Rays",
-      "start": "2026-10-19T21:00:00+00:00",
-      "end": "2026-10-20T00:30:00+00:00",
+      "start": "2026-10-20T00:00:00+00:00",
+      "end": "2026-10-20T03:30:00+00:00",
       "description": "Cleveland Guardians. Australia: MLB.TV; selected games on ESPN via Disney+/Kayo/Foxtel.",
       "location": "Tropicana Field"
     },
@@ -313,6 +321,14 @@
       "location": ""
     },
     {
+      "uid": "soccer-uefa.nations-401861175",
+      "title": "UEFA Nations League: Spain v England",
+      "start": "2026-11-15T19:45:00+00:00",
+      "end": "2026-11-15T22:15:00+00:00",
+      "description": "Australia viewing: Australian broadcaster to be confirmed",
+      "location": ""
+    },
+    {
       "uid": "soccer-fifa.friendly-401919978",
       "title": "International Friendlies: Qatar v Australia",
       "start": "2026-11-13T14:45:00+00:00",
@@ -321,9 +337,9 @@
       "location": ""
     }
   ],
-  "generated_at": "2026-10-15T23:41:41.007361+00:00",
+  "generated_at": "2026-10-16T23:35:54.460769+00:00",
   "coverage": {
-    "NHL Pittsburgh": 12,
+    "NHL Pittsburgh": 13,
     "MLB Cleveland": 4,
     "Hawthorn AFL/AFLW": 3,
     "UCI cycling championships": 5,
@@ -353,7 +369,7 @@
     "Football fra.1": 2,
     "Football fra.2": 0,
     "Football fra.coupe_de_france": 0,
-    "Football uefa.nations": 1,
+    "Football uefa.nations": 2,
     "Football fifa.friendly": 1,
     "Football fifa.world": 0,
     "Football afc.asian.cup": 0
