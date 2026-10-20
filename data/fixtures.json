@@ -1,14 +1,6 @@
 {
   "events": [
     {
-      "uid": "nhl-2026020140",
-      "title": "NHL: PIT @ UTA",
-      "start": "2026-10-20T01:00:00+00:00",
-      "end": "2026-10-20T04:00:00+00:00",
-      "description": "Pittsburgh Penguins. Australia: check ESPN via Disney+, Kayo/Foxtel and NHL coverage.",
-      "location": ""
-    },
-    {
       "uid": "nhl-2026020158",
       "title": "NHL: FLA @ PIT",
       "start": "2026-10-22T23:00:00+00:00",
@@ -87,14 +79,6 @@
       "end": "2026-11-15T03:00:00+00:00",
       "description": "Pittsburgh Penguins. Australia: check ESPN via Disney+, Kayo/Foxtel and NHL coverage.",
       "location": ""
-    },
-    {
-      "uid": "mlb-849814",
-      "title": "MLB: Cleveland Guardians @ Tampa Bay Rays",
-      "start": "2026-10-21T00:08:00+00:00",
-      "end": "2026-10-21T03:38:00+00:00",
-      "description": "Cleveland Guardians. Australia: MLB.TV; selected games on ESPN via Disney+/Kayo/Foxtel.",
-      "location": "Tropicana Field"
     },
     {
       "uid": "aflw-haw-2026-r11",
@@ -289,10 +273,10 @@
       "location": ""
     }
   ],
-  "generated_at": "2026-10-20T00:20:30.816510+00:00",
+  "generated_at": "2026-10-20T23:53:04.980211+00:00",
   "coverage": {
-    "NHL Pittsburgh": 11,
-    "MLB Cleveland": 1,
+    "NHL Pittsburgh": 10,
+    "MLB Cleveland": 0,
     "Hawthorn AFL/AFLW": 2,
     "UCI cycling championships": 3,
     "World Marathon Majors": 1,
