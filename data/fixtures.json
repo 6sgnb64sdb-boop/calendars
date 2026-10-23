@@ -1,14 +1,6 @@
 {
   "events": [
     {
-      "uid": "nhl-2026020158",
-      "title": "NHL: FLA @ PIT",
-      "start": "2026-10-22T23:00:00+00:00",
-      "end": "2026-10-23T02:00:00+00:00",
-      "description": "Pittsburgh Penguins. Australia: check ESPN via Disney+, Kayo/Foxtel and NHL coverage.",
-      "location": ""
-    },
-    {
       "uid": "nhl-2026020172",
       "title": "NHL: NSH @ PIT",
       "start": "2026-10-24T23:00:00+00:00",
@@ -85,6 +77,14 @@
       "title": "NHL: STL @ PIT",
       "start": "2026-11-20T00:00:00+00:00",
       "end": "2026-11-20T03:00:00+00:00",
+      "description": "Pittsburgh Penguins. Australia: check ESPN via Disney+, Kayo/Foxtel and NHL coverage.",
+      "location": ""
+    },
+    {
+      "uid": "nhl-2026020362",
+      "title": "NHL: PIT @ NSH",
+      "start": "2026-11-21T23:00:00+00:00",
+      "end": "2026-11-22T02:00:00+00:00",
       "description": "Pittsburgh Penguins. Australia: check ESPN via Disney+, Kayo/Foxtel and NHL coverage.",
       "location": ""
     },
@@ -289,7 +289,7 @@
       "location": ""
     }
   ],
-  "generated_at": "2026-10-22T00:00:16.870508+00:00",
+  "generated_at": "2026-10-22T23:59:18.380441+00:00",
   "coverage": {
     "NHL Pittsburgh": 11,
     "MLB Cleveland": 0,
