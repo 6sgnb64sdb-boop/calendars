@@ -137,6 +137,14 @@
       "description": "UCI confirmed elite finals rescheduled from 12 December to 5 December 2026. Men's and women's competitions. All-day pending verified session times. https://www.uci.org/pressrelease/surprise-surge-checkpoints-and-route-choices-to-shape-the-final-of-the-2026-uci-cycling-esports-world-championships/7uO4iLf5QDk3642Xt5TrYs"
     },
     {
+      "uid": "uci-esports-worlds-2026-junior-masters",
+      "title": "UCI Cycling Esports World Championships \u2013 Junior and Masters",
+      "start": "2026-12-12",
+      "end": "2026-12-13",
+      "location": "",
+      "description": "First UCI Junior and Masters Cycling Esports World Championships, 12 December 2026; men's and women's categories. All-day pending official session times. https://www.uci.org/pressrelease/the-uci-and-mywhoosh-launch-the-uci-junior-and-masters-cycling-esports-world-championships/76e7MTjLzQNwGqtSUR3j8h"
+    },
+    {
       "uid": "marathon-new-york-city-marathon-2026",
       "title": "Marathon: New York City Marathon",
       "start": "2026-11-01",
@@ -289,12 +297,12 @@
       "location": ""
     }
   ],
-  "generated_at": "2026-10-27T00:25:54.423053+00:00",
+  "generated_at": "2026-10-28T00:31:53.921967+00:00",
   "coverage": {
     "NHL Pittsburgh": 12,
     "MLB Cleveland": 0,
     "Hawthorn AFL/AFLW": 1,
-    "UCI cycling championships": 4,
+    "UCI cycling championships": 5,
     "World Marathon Majors": 1,
     "Major athletics": 0,
     "Endurance ultras": 0,
