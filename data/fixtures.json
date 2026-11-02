@@ -209,14 +209,6 @@
       "location": ""
     },
     {
-      "uid": "soccer-usa.1-761920",
-      "title": "MLS: Nashville SC v Red Bull New York",
-      "start": "2026-11-01T21:30:00+00:00",
-      "end": "2026-11-02T00:00:00+00:00",
-      "description": "Australia viewing: Australian broadcaster to be confirmed",
-      "location": ""
-    },
-    {
       "uid": "soccer-usa.1-761937",
       "title": "MLS: FC Cincinnati v Nashville SC",
       "start": "2026-11-07T21:00:00+00:00",
@@ -265,7 +257,7 @@
       "location": ""
     }
   ],
-  "generated_at": "2026-11-01T00:08:11.304942+00:00",
+  "generated_at": "2026-11-02T00:44:38.342389+00:00",
   "coverage": {
     "NHL Pittsburgh": 13,
     "MLB Cleveland": 0,
@@ -290,7 +282,7 @@
     "Football uefa.champions": 1,
     "Football uefa.europa": 0,
     "Football uefa.europa.conf": 0,
-    "Football usa.1": 2,
+    "Football usa.1": 1,
     "Football usa.open": 0,
     "Football concacaf.champions": 0,
     "Football concacaf.leagues.cup": 0,
