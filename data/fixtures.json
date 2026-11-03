@@ -105,20 +105,12 @@
       "location": ""
     },
     {
-      "uid": "uci-para-track-worlds-2026",
-      "title": "UCI Para-cycling Track World Championships",
-      "start": "2026-10-29",
-      "end": "2026-11-02",
-      "location": "Apeldoorn, Netherlands",
-      "description": "UCI calendar lists 29 October\u20131 November 2026. All-day placeholder; individual sessions and Australian broadcaster not yet confirmed."
-    },
-    {
-      "uid": "uci-indoor-worlds-2026",
-      "title": "UCI Indoor Cycling World Championships",
-      "start": "2026-10-30",
-      "end": "2026-11-02",
-      "location": "Ludwigsburg, Germany",
-      "description": "Official UCI schedule: 30 October\u20131 November 2026. Includes artistic cycling and cycle-ball for men's, women's and mixed categories. All-day until session times verified. https://www.uci.org/competition-details/2026/IND/77944"
+      "uid": "nhl-2026020446",
+      "title": "NHL: PIT @ STL",
+      "start": "2026-12-03T01:00:00+00:00",
+      "end": "2026-12-03T04:00:00+00:00",
+      "description": "Pittsburgh Penguins. Australia: check ESPN via Disney+, Kayo/Foxtel and NHL coverage.",
+      "location": ""
     },
     {
       "uid": "uci-urban-worlds-2026",
@@ -143,14 +135,6 @@
       "end": "2026-12-13",
       "location": "",
       "description": "First UCI Junior and Masters Cycling Esports World Championships, 12 December 2026; men's and women's categories. All-day pending official session times. https://www.uci.org/pressrelease/the-uci-and-mywhoosh-launch-the-uci-junior-and-masters-cycling-esports-world-championships/76e7MTjLzQNwGqtSUR3j8h"
-    },
-    {
-      "uid": "marathon-new-york-city-marathon-2026",
-      "title": "Marathon: New York City Marathon",
-      "start": "2026-11-01",
-      "end": "2026-11-02",
-      "location": "New York City, USA",
-      "description": "World Marathon Major. Official race date; all-day until elite start times and Australian broadcast are verified. Source: https://www.baa.org/wp-content/uploads/2026/04/April14-BM26-Media-Guide-Pages_UPDATE-ForOnlineL.pdf"
     },
     {
       "uid": "intl-eng-cro-2026-11-12",
@@ -257,13 +241,13 @@
       "location": ""
     }
   ],
-  "generated_at": "2026-11-02T00:44:38.342389+00:00",
+  "generated_at": "2026-11-03T02:55:25.015467+00:00",
   "coverage": {
-    "NHL Pittsburgh": 13,
+    "NHL Pittsburgh": 14,
     "MLB Cleveland": 0,
     "Hawthorn AFL/AFLW": 0,
-    "UCI cycling championships": 5,
-    "World Marathon Majors": 1,
+    "UCI cycling championships": 3,
+    "World Marathon Majors": 0,
     "Major athletics": 0,
     "Endurance ultras": 0,
     "Confirmed internationals": 4,
