@@ -1,14 +1,6 @@
 {
   "events": [
     {
-      "uid": "nhl-2026020242",
-      "title": "NHL: VGK @ PIT",
-      "start": "2026-11-04T00:00:00+00:00",
-      "end": "2026-11-04T03:00:00+00:00",
-      "description": "Pittsburgh Penguins. Australia: check ESPN via Disney+, Kayo/Foxtel and NHL coverage.",
-      "location": ""
-    },
-    {
       "uid": "nhl-2026020257",
       "title": "NHL: BOS @ PIT",
       "start": "2026-11-06T00:00:00+00:00",
@@ -185,14 +177,6 @@
       "location": ""
     },
     {
-      "uid": "soccer-uefa.champions-401915308",
-      "title": "Champions League: Manchester United v AS Roma",
-      "start": "2026-11-03T20:00:00+00:00",
-      "end": "2026-11-03T22:30:00+00:00",
-      "description": "Australia viewing: Stan Sport",
-      "location": ""
-    },
-    {
       "uid": "soccer-usa.1-761937",
       "title": "MLS: FC Cincinnati v Nashville SC",
       "start": "2026-11-07T21:00:00+00:00",
@@ -241,9 +225,9 @@
       "location": ""
     }
   ],
-  "generated_at": "2026-11-03T02:55:25.015467+00:00",
+  "generated_at": "2026-11-04T01:21:28.584971+00:00",
   "coverage": {
-    "NHL Pittsburgh": 14,
+    "NHL Pittsburgh": 13,
     "MLB Cleveland": 0,
     "Hawthorn AFL/AFLW": 0,
     "UCI cycling championships": 3,
@@ -263,7 +247,7 @@
     "Football eng.1": 2,
     "Football eng.fa": 0,
     "Football eng.league_cup": 0,
-    "Football uefa.champions": 1,
+    "Football uefa.champions": 0,
     "Football uefa.europa": 0,
     "Football uefa.europa.conf": 0,
     "Football usa.1": 1,
