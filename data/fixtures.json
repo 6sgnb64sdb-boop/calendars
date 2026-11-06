@@ -1,14 +1,6 @@
 {
   "events": [
     {
-      "uid": "nhl-2026020257",
-      "title": "NHL: BOS @ PIT",
-      "start": "2026-11-06T00:00:00+00:00",
-      "end": "2026-11-06T03:00:00+00:00",
-      "description": "Pittsburgh Penguins. Australia: check ESPN via Disney+, Kayo/Foxtel and NHL coverage.",
-      "location": ""
-    },
-    {
       "uid": "nhl-2026020275",
       "title": "NHL: PIT @ LAK",
       "start": "2026-11-08T02:00:00+00:00",
@@ -101,6 +93,14 @@
       "title": "NHL: PIT @ STL",
       "start": "2026-12-03T01:00:00+00:00",
       "end": "2026-12-03T04:00:00+00:00",
+      "description": "Pittsburgh Penguins. Australia: check ESPN via Disney+, Kayo/Foxtel and NHL coverage.",
+      "location": ""
+    },
+    {
+      "uid": "nhl-2026020467",
+      "title": "NHL: NJD @ PIT",
+      "start": "2026-12-05T20:00:00+00:00",
+      "end": "2026-12-05T23:00:00+00:00",
       "description": "Pittsburgh Penguins. Australia: check ESPN via Disney+, Kayo/Foxtel and NHL coverage.",
       "location": ""
     },
@@ -223,9 +223,17 @@
       "end": "2026-11-17T18:30:00+00:00",
       "description": "Australia viewing: Australian broadcaster to be confirmed",
       "location": ""
+    },
+    {
+      "uid": "soccer-fifa.friendly-401930339",
+      "title": "International Friendlies: England v Ukraine",
+      "start": "2026-12-05T17:30:00+00:00",
+      "end": "2026-12-05T20:00:00+00:00",
+      "description": "Australia viewing: Australian broadcaster to be confirmed",
+      "location": ""
     }
   ],
-  "generated_at": "2026-11-05T01:27:43.856711+00:00",
+  "generated_at": "2026-11-06T01:33:18.051931+00:00",
   "coverage": {
     "NHL Pittsburgh": 13,
     "MLB Cleveland": 0,
@@ -245,6 +253,9 @@
     },
     "Men road calendar": 0,
     "Football eng.1": 2,
+    "Football eng.fa": 0,
+    "Football eng.league_cup": 0,
+    "Football uefa.champions": 0,
     "Football uefa.europa": 0,
     "Football uefa.europa.conf": 0,
     "Football usa.1": 1,
@@ -255,7 +266,8 @@
     "Football fra.2": 0,
     "Football fra.coupe_de_france": 0,
     "Football uefa.nations": 2,
-    "Football fifa.friendly": 2,
-    "Football fifa.world": 0
+    "Football fifa.friendly": 3,
+    "Football fifa.world": 0,
+    "Football afc.asian.cup": 0
   }
 }
