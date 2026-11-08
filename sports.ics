@@ -1088,4 +1088,154 @@ SUMMARY:Premier League: Chelsea v Leeds United
 DESCRIPTION:Australia viewing: Stan Sport
 STATUS:CONFIRMED
 END:VEVENT
+BEGIN:VEVENT
+UID:isu-speed-wc1-202627@sandy-calendars
+DTSTAMP:20261108T232600Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261116
+SUMMARY:Speed Skating: World Cup #1
+LOCATION:Beijing, China
+DESCRIPTION:ISU 2026/27 senior competition. Dates are event-local calendar dates. Daily session times and Australian streaming availability to be confirmed. Official details: https://www.isu-skating.com/en/speed-skating/events/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:isu-speed-wc2-202627@sandy-calendars
+DTSTAMP:20261108T232600Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261123
+SUMMARY:Speed Skating: World Cup #2
+LOCATION:Obihiro, Japan
+DESCRIPTION:ISU 2026/27 senior competition. Dates are event-local calendar dates. Daily session times and Australian streaming availability to be confirmed. Official details: https://www.isu-skating.com/en/speed-skating/events/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:isu-speed-wc3-202627@sandy-calendars
+DTSTAMP:20261108T232600Z
+DTSTART;VALUE=DATE:20261204
+DTEND;VALUE=DATE:20261207
+SUMMARY:Speed Skating: World Cup #3
+LOCATION:Heerenveen, Netherlands
+DESCRIPTION:ISU 2026/27 senior competition. Dates are event-local calendar dates. Daily session times and Australian streaming availability to be confirmed. Official details: https://www.isu-skating.com/en/speed-skating/events/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:isu-speed-wc4-202627@sandy-calendars
+DTSTAMP:20261108T232600Z
+DTSTART;VALUE=DATE:20261211
+DTEND;VALUE=DATE:20261214
+SUMMARY:Speed Skating: World Cup #4
+LOCATION:Stavanger, Norway
+DESCRIPTION:ISU 2026/27 senior competition. Dates are event-local calendar dates. Daily session times and Australian streaming availability to be confirmed. Official details: https://www.isu-skating.com/en/speed-skating/events/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:isu-speed-euro-202627@sandy-calendars
+DTSTAMP:20261108T232600Z
+DTSTART;VALUE=DATE:20270108
+DTEND;VALUE=DATE:20270111
+SUMMARY:Speed Skating: European Championships
+LOCATION:Heerenveen, Netherlands
+DESCRIPTION:ISU 2026/27 senior competition. Dates are event-local calendar dates. Daily session times and Australian streaming availability to be confirmed. Official details: https://www.isu-skating.com/en/speed-skating/events/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:isu-speed-wc5-202627@sandy-calendars
+DTSTAMP:20261108T232600Z
+DTSTART;VALUE=DATE:20270129
+DTEND;VALUE=DATE:20270201
+SUMMARY:Speed Skating: World Cup #5
+LOCATION:Salt Lake City, USA
+DESCRIPTION:ISU 2026/27 senior competition. Dates are event-local calendar dates. Daily session times and Australian streaming availability to be confirmed. Official details: https://www.isu-skating.com/en/speed-skating/events/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:isu-speed-wc6-202627@sandy-calendars
+DTSTAMP:20261108T232600Z
+DTSTART;VALUE=DATE:20270205
+DTEND;VALUE=DATE:20270208
+SUMMARY:Speed Skating: World Cup #6
+LOCATION:Calgary, Canada
+DESCRIPTION:ISU 2026/27 senior competition. Dates are event-local calendar dates. Daily session times and Australian streaming availability to be confirmed. Official details: https://www.isu-skating.com/en/speed-skating/events/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:isu-speed-worlds-202627@sandy-calendars
+DTSTAMP:20261108T232600Z
+DTSTART;VALUE=DATE:20270225
+DTEND;VALUE=DATE:20270301
+SUMMARY:Speed Skating: World Championships
+LOCATION:Beijing, China
+DESCRIPTION:ISU 2026/27 senior competition. Dates are event-local calendar dates. Daily session times and Australian streaming availability to be confirmed. Official details: https://www.isu-skating.com/en/speed-skating/events/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:isu-short-tour3-202627@sandy-calendars
+DTSTAMP:20261108T232600Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261123
+SUMMARY:Short Track: World Tour #3
+LOCATION:Seoul, South Korea
+DESCRIPTION:ISU 2026/27 senior competition. Dates are event-local calendar dates. Daily session times and Australian streaming availability to be confirmed. Official details: https://www.isu-skating.com/en/short-track/events/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:isu-short-tour4-202627@sandy-calendars
+DTSTAMP:20261108T232600Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261130
+SUMMARY:Short Track: World Tour #4
+LOCATION:Shanghai, China
+DESCRIPTION:ISU 2026/27 senior competition. Dates are event-local calendar dates. Daily session times and Australian streaming availability to be confirmed. Official details: https://www.isu-skating.com/en/short-track/events/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:isu-short-tour5-202627@sandy-calendars
+DTSTAMP:20261108T232600Z
+DTSTART;VALUE=DATE:20261204
+DTEND;VALUE=DATE:20261207
+SUMMARY:Short Track: World Tour #5
+LOCATION:Beijing, China
+DESCRIPTION:ISU 2026/27 senior competition. Dates are event-local calendar dates. Daily session times and Australian streaming availability to be confirmed. Official details: https://www.isu-skating.com/en/short-track/events/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:isu-short-euro-202627@sandy-calendars
+DTSTAMP:20261108T232600Z
+DTSTART;VALUE=DATE:20270115
+DTEND;VALUE=DATE:20270118
+SUMMARY:Short Track: European Championships
+LOCATION:Dresden, Germany
+DESCRIPTION:ISU 2026/27 senior competition. Dates are event-local calendar dates. Daily session times and Australian streaming availability to be confirmed. Official details: https://www.isu-skating.com/en/short-track/events/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:isu-short-tour6-202627@sandy-calendars
+DTSTAMP:20261108T232600Z
+DTSTART;VALUE=DATE:20270205
+DTEND;VALUE=DATE:20270208
+SUMMARY:Short Track: World Tour #6
+LOCATION:Gdańsk, Poland
+DESCRIPTION:ISU 2026/27 senior competition. Dates are event-local calendar dates. Daily session times and Australian streaming availability to be confirmed. Official details: https://www.isu-skating.com/en/short-track/events/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:isu-short-tour7-202627@sandy-calendars
+DTSTAMP:20261108T232600Z
+DTSTART;VALUE=DATE:20270212
+DTEND;VALUE=DATE:20270215
+SUMMARY:Short Track: World Tour #7
+LOCATION:Tilburg, Netherlands
+DESCRIPTION:ISU 2026/27 senior competition. Dates are event-local calendar dates. Daily session times and Australian streaming availability to be confirmed. Official details: https://www.isu-skating.com/en/short-track/events/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:isu-short-worlds-202627@sandy-calendars
+DTSTAMP:20261108T232600Z
+DTSTART;VALUE=DATE:20270312
+DTEND;VALUE=DATE:20270315
+SUMMARY:Short Track: World Championships
+LOCATION:Seoul, South Korea
+DESCRIPTION:ISU 2026/27 senior competition. Dates are event-local calendar dates. Daily session times and Australian streaming availability to be confirmed. Official details: https://www.isu-skating.com/en/short-track/events/
+STATUS:CONFIRMED
+END:VEVENT
 END:VCALENDAR
