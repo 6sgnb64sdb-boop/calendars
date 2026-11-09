@@ -1,14 +1,6 @@
 {
   "events": [
     {
-      "uid": "nhl-2026020275",
-      "title": "NHL: PIT @ LAK",
-      "start": "2026-11-08T02:00:00+00:00",
-      "end": "2026-11-08T05:00:00+00:00",
-      "description": "Pittsburgh Penguins. Australia: check ESPN via Disney+, Kayo/Foxtel and NHL coverage.",
-      "location": ""
-    },
-    {
       "uid": "nhl-2026020282",
       "title": "NHL: PIT @ ANA",
       "start": "2026-11-09T01:00:00+00:00",
@@ -113,12 +105,12 @@
       "location": ""
     },
     {
-      "uid": "uci-urban-worlds-2026",
-      "title": "UCI Urban Cycling World Championships \u2013 Trials",
-      "start": "2026-11-03",
-      "end": "2026-11-08",
-      "location": "Riyadh, Saudi Arabia",
-      "description": "Official UCI Trials championship dates: 3\u20137 November 2026. Men's, women's, junior and mixed events. All-day until individual start times verified. https://www.uci.org/competition-details/2026/TRI/74373"
+      "uid": "nhl-2026020489",
+      "title": "NHL: CHI @ PIT",
+      "start": "2026-12-09T00:30:00+00:00",
+      "end": "2026-12-09T03:30:00+00:00",
+      "description": "Pittsburgh Penguins. Australia: check ESPN via Disney+, Kayo/Foxtel and NHL coverage.",
+      "location": ""
     },
     {
       "uid": "uci-esports-worlds-2026-elite",
@@ -169,18 +161,18 @@
       "description": "Socceroos senior men's international. Kick-off TBC; November 17 local, potentially November 18 in Australia. Date-only placeholder; Australia viewing: Paramount+. Official: https://footballaustralia.com.au/news/commbank-socceroos-face-qatar-and-jordan-ahead-afc-asian-cup-2027tm?page=2"
     },
     {
-      "uid": "soccer-eng.1-401879240",
-      "title": "Premier League: Manchester United v Aston Villa",
-      "start": "2026-11-08T16:30:00+00:00",
-      "end": "2026-11-08T19:00:00+00:00",
-      "description": "Australia viewing: Stan Sport",
-      "location": ""
-    },
-    {
       "uid": "soccer-eng.1-401879236",
       "title": "Premier League: Chelsea v Leeds United",
       "start": "2026-11-21T15:00:00+00:00",
       "end": "2026-11-21T17:30:00+00:00",
+      "description": "Australia viewing: Stan Sport",
+      "location": ""
+    },
+    {
+      "uid": "soccer-eng.1-401878755",
+      "title": "Premier League: Liverpool v Manchester United",
+      "start": "2026-11-22T16:30:00+00:00",
+      "end": "2026-11-22T19:00:00+00:00",
       "description": "Australia viewing: Stan Sport",
       "location": ""
     },
@@ -233,12 +225,12 @@
       "location": ""
     }
   ],
-  "generated_at": "2026-11-08T00:36:20.997918+00:00",
+  "generated_at": "2026-11-09T00:55:06.415717+00:00",
   "coverage": {
     "NHL Pittsburgh": 14,
     "MLB Cleveland": 0,
     "Hawthorn AFL/AFLW": 0,
-    "UCI cycling championships": 3,
+    "UCI cycling championships": 2,
     "World Marathon Majors": 0,
     "Major athletics": 0,
     "Endurance ultras": 0,
