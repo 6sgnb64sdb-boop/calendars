@@ -1,14 +1,6 @@
 {
   "events": [
     {
-      "uid": "nhl-2026020282",
-      "title": "NHL: PIT @ ANA",
-      "start": "2026-11-09T01:00:00+00:00",
-      "end": "2026-11-09T04:00:00+00:00",
-      "description": "Pittsburgh Penguins. Australia: check ESPN via Disney+, Kayo/Foxtel and NHL coverage.",
-      "location": ""
-    },
-    {
       "uid": "nhl-2026020298",
       "title": "NHL: PIT @ SJS",
       "start": "2026-11-12T03:00:00+00:00",
@@ -177,6 +169,14 @@
       "location": ""
     },
     {
+      "uid": "soccer-usa.1-401933731",
+      "title": "MLS: Nashville SC v TBD Away",
+      "start": "2026-11-22T21:00:00+00:00",
+      "end": "2026-11-22T23:30:00+00:00",
+      "description": "Australia viewing: Australian broadcaster to be confirmed",
+      "location": ""
+    },
+    {
       "uid": "soccer-fra.1-401876395",
       "title": "Ligue 1: Troyes v Le Havre AC",
       "start": "2026-11-20T19:45:00+00:00",
@@ -225,9 +225,9 @@
       "location": ""
     }
   ],
-  "generated_at": "2026-11-09T00:55:06.415717+00:00",
+  "generated_at": "2026-11-10T03:34:34.751997+00:00",
   "coverage": {
-    "NHL Pittsburgh": 14,
+    "NHL Pittsburgh": 13,
     "MLB Cleveland": 0,
     "Hawthorn AFL/AFLW": 0,
     "UCI cycling championships": 2,
@@ -250,7 +250,7 @@
     "Football uefa.champions": 0,
     "Football uefa.europa": 0,
     "Football uefa.europa.conf": 0,
-    "Football usa.1": 0,
+    "Football usa.1": 1,
     "Football usa.open": 0,
     "Football concacaf.champions": 0,
     "Football concacaf.leagues.cup": 0,
