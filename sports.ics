@@ -1274,4 +1274,24 @@ SUMMARY:NHL: PIT @ FLA
 DESCRIPTION:Pittsburgh Penguins. Australia: check ESPN via Disney+\, Kayo/Foxtel and NHL coverage.
 STATUS:CONFIRMED
 END:VEVENT
+BEGIN:VEVENT
+UID:football-wales-norway-20261115@sandy-calendars
+DTSTAMP:20261111T210000Z
+DTSTART;TZID=Australia/Brisbane:20261115T030000
+DTEND;TZID=Australia/Brisbane:20261115T050000
+SUMMARY:Football: Norway v Wales
+LOCATION:Ullevaal Stadion\, Oslo
+DESCRIPTION:Wales men's international - UEFA Nations League. Australia: broadcast availability to be confirmed.
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:football-wales-portugal-20261118@sandy-calendars
+DTSTAMP:20261111T210000Z
+DTSTART;TZID=Australia/Brisbane:20261118T054500
+DTEND;TZID=Australia/Brisbane:20261118T074500
+SUMMARY:Football: Wales v Portugal
+LOCATION:Cardiff City Stadium\, Cardiff
+DESCRIPTION:Wales men's international - UEFA Nations League. Australia: broadcast availability to be confirmed.
+STATUS:CONFIRMED
+END:VEVENT
 END:VCALENDAR
