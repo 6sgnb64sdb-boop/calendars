@@ -28,8 +28,9 @@ def in_window(iso):
     value = dt.datetime.fromisoformat(iso.replace("Z", "+00:00"))
     return TODAY <= value <= END
 
-def add(uid, title, start, duration, description, location=""):
-    if not in_window(start):
+def add(uid, title, start, duration, description, location="", window_days=30):
+    value = dt.datetime.fromisoformat(start.replace("Z", "+00:00"))
+    if not TODAY <= value <= TODAY + dt.timedelta(days=window_days):
         return
     beginning = dt.datetime.fromisoformat(start.replace("Z", "+00:00"))
     ending = beginning + dt.timedelta(hours=duration)
@@ -83,15 +84,15 @@ SOCCER = {
     "fra.1": ("Ligue 1", ("Troyes",)),
     "fra.2": ("Ligue 2", ("Troyes",)),
     "fra.coupe_de_france": ("Coupe de France", ("Troyes",)),
-    "uefa.nations": ("UEFA Nations League", ("England",)),
-    "fifa.friendly": ("International Friendlies", ("England", "Australia")),
-    "fifa.world": ("FIFA World Cup", ("England", "Australia")),
+    "uefa.nations": ("UEFA Nations League", ("England", "Wales")),
+    "fifa.friendly": ("International Friendlies", ("England", "Australia", "Wales")),
+    "fifa.world": ("FIFA World Cup", ("England", "Australia", "Wales")),
     "afc.asian.cup": ("AFC Asian Cup", ("Australia",)),
 }
 # Exact aliases avoid matching youth and women's teams.
 ALIASES = {"Leeds United": ("leeds united",), "Manchester United": ("manchester united", "man united"),
            "Nashville SC": ("nashville sc", "nashville"), "Troyes": ("troyes", "es troyes"),
-           "England": ("england",), "Australia": ("australia",)}
+           "England": ("england",), "Australia": ("australia",), "Wales": ("wales",)}
 
 def soccer(league, label, followed):
     # National-team fixtures can be announced well ahead of club matches.
@@ -118,7 +119,7 @@ def soccer(league, label, followed):
             home = next((c.get("team", {}).get("displayName", "") for c in competitors if c.get("homeAway") == "home"), names[0])
             away = next((c.get("team", {}).get("displayName", "") for c in competitors if c.get("homeAway") == "away"), names[1])
             viewing = "Stan Sport" if league in ("eng.1", "uefa.champions", "uefa.europa", "uefa.europa.conf") else "Australian broadcaster to be confirmed"
-            add(f"soccer-{league}-{event['id']}", f"{label}: {home} v {away}", start, 2.5, "Australia viewing: " + viewing)
+            add(f"soccer-{league}-{event['id']}", f"{label}: {home} v {away}", start, 2.5, "Australia viewing: " + viewing, window_days=days)
 
 def hawthorn():
     """Use verified Hawthorn AFL/AFLW fixtures; rolling 45-day window.
