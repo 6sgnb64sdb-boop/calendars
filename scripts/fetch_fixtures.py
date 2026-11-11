@@ -81,9 +81,6 @@ SOCCER = {
     "usa.open": ("US Open Cup", ("Nashville SC",)),
     "concacaf.champions": ("Concacaf Champions Cup", ("Nashville SC",)),
     "concacaf.leagues.cup": ("Leagues Cup", ("Nashville SC",)),
-    "fra.1": ("Ligue 1", ("Troyes",)),
-    "fra.2": ("Ligue 2", ("Troyes",)),
-    "fra.coupe_de_france": ("Coupe de France", ("Troyes",)),
     "uefa.nations": ("UEFA Nations League", ("England", "Wales")),
     "uefa.euro": ("UEFA European Championship", ("England", "Wales")),
     "uefa.euroq": ("UEFA European Championship Qualifying", ("England", "Wales")),
@@ -95,7 +92,7 @@ SOCCER = {
 }
 # Exact aliases avoid matching youth and women's teams.
 ALIASES = {"Leeds United": ("leeds united",), "Manchester United": ("manchester united", "man united"),
-           "Nashville SC": ("nashville sc", "nashville"), "Troyes": ("troyes", "es troyes"),
+           "Nashville SC": ("nashville sc", "nashville"),
            "England": ("england",), "Australia": ("australia",), "Wales": ("wales",)}
 
 def soccer(league, label, followed):
