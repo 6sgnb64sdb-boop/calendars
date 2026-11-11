@@ -105,6 +105,14 @@
       "location": ""
     },
     {
+      "uid": "nhl-2026020503",
+      "title": "NHL: PIT @ FLA",
+      "start": "2026-12-11T00:00:00+00:00",
+      "end": "2026-12-11T03:00:00+00:00",
+      "description": "Pittsburgh Penguins. Australia: check ESPN via Disney+, Kayo/Foxtel and NHL coverage.",
+      "location": ""
+    },
+    {
       "uid": "uci-esports-worlds-2026-elite",
       "title": "UCI Cycling Esports World Championships \u2013 Men and Women Elite",
       "start": "2026-12-05",
@@ -225,9 +233,9 @@
       "location": ""
     }
   ],
-  "generated_at": "2026-11-10T03:34:34.751997+00:00",
+  "generated_at": "2026-11-11T01:14:19.389785+00:00",
   "coverage": {
-    "NHL Pittsburgh": 13,
+    "NHL Pittsburgh": 14,
     "MLB Cleveland": 0,
     "Hawthorn AFL/AFLW": 0,
     "UCI cycling championships": 2,
