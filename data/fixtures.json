@@ -1,14 +1,6 @@
 {
   "events": [
     {
-      "uid": "nhl-2026020298",
-      "title": "NHL: PIT @ SJS",
-      "start": "2026-11-12T03:00:00+00:00",
-      "end": "2026-11-12T06:00:00+00:00",
-      "description": "Pittsburgh Penguins. Australia: check ESPN via Disney+, Kayo/Foxtel and NHL coverage.",
-      "location": ""
-    },
-    {
       "uid": "nhl-2026020317",
       "title": "NHL: OTT @ PIT",
       "start": "2026-11-15T00:00:00+00:00",
@@ -113,6 +105,14 @@
       "location": ""
     },
     {
+      "uid": "nhl-2026020516",
+      "title": "NHL: PIT @ TBL",
+      "start": "2026-12-12T20:30:00+00:00",
+      "end": "2026-12-12T23:30:00+00:00",
+      "description": "Pittsburgh Penguins. Australia: check ESPN via Disney+, Kayo/Foxtel and NHL coverage.",
+      "location": ""
+    },
+    {
       "uid": "uci-esports-worlds-2026-elite",
       "title": "UCI Cycling Esports World Championships \u2013 Men and Women Elite",
       "start": "2026-12-05",
@@ -127,14 +127,6 @@
       "end": "2026-12-13",
       "location": "",
       "description": "First UCI Junior and Masters Cycling Esports World Championships, 12 December 2026; men's and women's categories. All-day pending official session times. https://www.uci.org/pressrelease/the-uci-and-mywhoosh-launch-the-uci-junior-and-masters-cycling-esports-world-championships/76e7MTjLzQNwGqtSUR3j8h"
-    },
-    {
-      "uid": "intl-eng-cro-2026-11-12",
-      "title": "UEFA Nations League: England v Croatia",
-      "start": "2026-11-12T19:45:00+00:00",
-      "end": "2026-11-12T22:15:00+00:00",
-      "location": "Wembley Stadium, London",
-      "description": "England senior men's international. Australia viewing to be confirmed. Official: https://www.englandfootball.com/england/mens-senior-team/fixtures-results"
     },
     {
       "uid": "intl-esp-eng-2026-11-15",
@@ -193,14 +185,6 @@
       "location": ""
     },
     {
-      "uid": "soccer-uefa.nations-401861150",
-      "title": "UEFA Nations League: England v Croatia",
-      "start": "2026-11-12T19:45:00+00:00",
-      "end": "2026-11-12T22:15:00+00:00",
-      "description": "Australia viewing: Australian broadcaster to be confirmed",
-      "location": ""
-    },
-    {
       "uid": "soccer-uefa.nations-401861165",
       "title": "UEFA Nations League: Norway v Wales",
       "start": "2026-11-14T17:00:00+00:00",
@@ -249,7 +233,7 @@
       "location": ""
     }
   ],
-  "generated_at": "2026-11-12T02:16:09.983150+00:00",
+  "generated_at": "2026-11-13T01:49:42.815413+00:00",
   "coverage": {
     "NHL Pittsburgh": 14,
     "MLB Cleveland": 0,
@@ -258,7 +242,7 @@
     "World Marathon Majors": 0,
     "Major athletics": 0,
     "Endurance ultras": 0,
-    "Confirmed internationals": 4,
+    "Confirmed internationals": 3,
     "Men road feed diagnostics": {
       "feed_events": 289,
       "eligible_races": 38,
@@ -270,7 +254,6 @@
     "Men road calendar": 0,
     "Football eng.1": 2,
     "Football eng.fa": 0,
-    "Football eng.league_cup": 0,
     "Football uefa.champions": 1,
     "Football uefa.europa": 0,
     "Football uefa.europa.conf": 0,
@@ -278,7 +261,7 @@
     "Football usa.open": 0,
     "Football concacaf.champions": 0,
     "Football concacaf.leagues.cup": 0,
-    "Football uefa.nations": 4,
+    "Football uefa.nations": 3,
     "Football uefa.euro": 0,
     "Football uefa.euroq": 0,
     "Football fifa.worldq.uefa": 0,
