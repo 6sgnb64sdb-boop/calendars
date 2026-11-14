@@ -137,14 +137,6 @@
       "description": "England senior men's international. Start time shown as date-only pending timezone confirmation. Official: https://www.englandfootball.com/england/mens-senior-team/fixtures-results"
     },
     {
-      "uid": "intl-qat-aus-2026-11-14",
-      "title": "International Friendly: Qatar v Australia",
-      "start": "2026-11-13T14:45:00+00:00",
-      "end": "2026-11-13T17:15:00+00:00",
-      "location": "Jassim bin Hamad Stadium, Doha, Qatar",
-      "description": "Socceroos senior men's international. Brisbane start 00:45 Saturday 14 November. Australia viewing: Paramount+. Official: https://footballaustralia.com.au/news/commbank-socceroos-face-qatar-and-jordan-ahead-afc-asian-cup-2027tm?page=2"
-    },
-    {
       "uid": "intl-jor-aus-2026-11-17",
       "title": "International Friendly: Jordan v Australia",
       "start": "2026-11-17",
@@ -209,14 +201,6 @@
       "location": ""
     },
     {
-      "uid": "soccer-fifa.friendly-401919978",
-      "title": "International Friendlies: Qatar v Australia",
-      "start": "2026-11-13T14:45:00+00:00",
-      "end": "2026-11-13T17:15:00+00:00",
-      "description": "Australia viewing: Australian broadcaster to be confirmed",
-      "location": ""
-    },
-    {
       "uid": "soccer-fifa.friendly-401919974",
       "title": "International Friendlies: Jordan v Australia",
       "start": "2026-11-17T16:00:00+00:00",
@@ -233,7 +217,7 @@
       "location": ""
     }
   ],
-  "generated_at": "2026-11-13T01:49:42.815413+00:00",
+  "generated_at": "2026-11-14T01:26:43.926352+00:00",
   "coverage": {
     "NHL Pittsburgh": 14,
     "MLB Cleveland": 0,
@@ -242,7 +226,7 @@
     "World Marathon Majors": 0,
     "Major athletics": 0,
     "Endurance ultras": 0,
-    "Confirmed internationals": 3,
+    "Confirmed internationals": 2,
     "Men road feed diagnostics": {
       "feed_events": 289,
       "eligible_races": 38,
@@ -254,6 +238,7 @@
     "Men road calendar": 0,
     "Football eng.1": 2,
     "Football eng.fa": 0,
+    "Football eng.league_cup": 0,
     "Football uefa.champions": 1,
     "Football uefa.europa": 0,
     "Football uefa.europa.conf": 0,
@@ -266,7 +251,7 @@
     "Football uefa.euroq": 0,
     "Football fifa.worldq.uefa": 0,
     "Football fifa.worldq.afc": 0,
-    "Football fifa.friendly": 3,
+    "Football fifa.friendly": 2,
     "Football fifa.world": 0,
     "Football afc.asian.cup": 0
   }
