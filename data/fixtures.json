@@ -1,14 +1,6 @@
 {
   "events": [
     {
-      "uid": "nhl-2026020362",
-      "title": "NHL: PIT @ NSH",
-      "start": "2026-11-21T23:00:00+00:00",
-      "end": "2026-11-22T02:00:00+00:00",
-      "description": "Pittsburgh Penguins. Australia: check ESPN via Disney+, Kayo/Foxtel and NHL coverage.",
-      "location": ""
-    },
-    {
       "uid": "nhl-2026020376",
       "title": "NHL: PIT @ DAL",
       "start": "2026-11-23T00:00:00+00:00",
@@ -137,14 +129,6 @@
       "description": "First UCI Junior and Masters Cycling Esports World Championships, 12 December 2026; men's and women's categories. All-day pending official session times. https://www.uci.org/pressrelease/the-uci-and-mywhoosh-launch-the-uci-junior-and-masters-cycling-esports-world-championships/76e7MTjLzQNwGqtSUR3j8h"
     },
     {
-      "uid": "soccer-eng.1-401879236",
-      "title": "Premier League: Chelsea v Leeds United",
-      "start": "2026-11-21T15:00:00+00:00",
-      "end": "2026-11-21T17:30:00+00:00",
-      "description": "Australia viewing: Stan Sport",
-      "location": ""
-    },
-    {
       "uid": "soccer-eng.1-401878755",
       "title": "Premier League: Liverpool v Manchester United",
       "start": "2026-11-22T16:30:00+00:00",
@@ -181,6 +165,22 @@
       "title": "Premier League: Newcastle United v Manchester United",
       "start": "2026-12-02T20:15:00+00:00",
       "end": "2026-12-02T22:45:00+00:00",
+      "description": "Australia viewing: Stan Sport",
+      "location": ""
+    },
+    {
+      "uid": "soccer-eng.1-401879211",
+      "title": "Premier League: Leeds United v Ipswich Town",
+      "start": "2026-12-05T15:00:00+00:00",
+      "end": "2026-12-05T17:30:00+00:00",
+      "description": "Australia viewing: Stan Sport",
+      "location": ""
+    },
+    {
+      "uid": "soccer-eng.1-401879210",
+      "title": "Premier League: Manchester United v Coventry City",
+      "start": "2026-12-05T15:00:00+00:00",
+      "end": "2026-12-05T17:30:00+00:00",
       "description": "Australia viewing: Stan Sport",
       "location": ""
     },
@@ -225,9 +225,9 @@
       "location": ""
     }
   ],
-  "generated_at": "2026-11-21T02:15:02.734469+00:00",
+  "generated_at": "2026-11-22T01:19:03.068966+00:00",
   "coverage": {
-    "NHL Pittsburgh": 15,
+    "NHL Pittsburgh": 14,
     "MLB Cleveland": 0,
     "Hawthorn AFL/AFLW": 0,
     "UCI cycling championships": 2,
@@ -244,7 +244,7 @@
       "added": 0
     },
     "Men road calendar": 0,
-    "Football eng.1": 6,
+    "Football eng.1": 7,
     "Football eng.fa": 0,
     "Football eng.league_cup": 0,
     "Football uefa.champions": 1,
