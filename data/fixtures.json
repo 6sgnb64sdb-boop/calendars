@@ -1,14 +1,6 @@
 {
   "events": [
     {
-      "uid": "nhl-2026020391",
-      "title": "NHL: CGY @ PIT",
-      "start": "2026-11-26T00:00:00+00:00",
-      "end": "2026-11-26T03:00:00+00:00",
-      "description": "Pittsburgh Penguins. Australia: check ESPN via Disney+, Kayo/Foxtel and NHL coverage.",
-      "location": ""
-    },
-    {
       "uid": "nhl-2026020413",
       "title": "NHL: PIT @ BUF",
       "start": "2026-11-28T01:00:00+00:00",
@@ -129,6 +121,14 @@
       "description": "First UCI Junior and Masters Cycling Esports World Championships, 12 December 2026; men's and women's categories. All-day pending official session times. https://www.uci.org/pressrelease/the-uci-and-mywhoosh-launch-the-uci-junior-and-masters-cycling-esports-world-championships/76e7MTjLzQNwGqtSUR3j8h"
     },
     {
+      "uid": "ultra-winter-spine-2027",
+      "title": "Ultra: Winter Spine Race (268 miles)",
+      "start": "2027-01-10",
+      "end": "2027-01-17",
+      "location": "Pennine Way, England and Scotland",
+      "description": "Multi-day endurance ultramarathon; all-day event covering published race/event window. Follow official organiser for live tracking and streaming; no scores or results. Source: https://www.thespinerace.com/race/montane-winter-spine/montane-winter-spine-spine/"
+    },
+    {
       "uid": "soccer-eng.1-401879227",
       "title": "Premier League: Leeds United v Coventry City",
       "start": "2026-11-28T15:00:00+00:00",
@@ -177,14 +177,6 @@
       "location": ""
     },
     {
-      "uid": "soccer-uefa.champions-401915373",
-      "title": "Champions League: Sporting CP v Manchester United",
-      "start": "2026-11-25T20:00:00+00:00",
-      "end": "2026-11-25T22:30:00+00:00",
-      "description": "Australia viewing: Stan Sport",
-      "location": ""
-    },
-    {
       "uid": "soccer-uefa.champions-401915371",
       "title": "Champions League: Manchester United v RB Leipzig",
       "start": "2026-12-08T20:00:00+00:00",
@@ -215,17 +207,25 @@
       "end": "2026-12-05T20:00:00+00:00",
       "description": "Australia viewing: Australian broadcaster to be confirmed",
       "location": ""
+    },
+    {
+      "uid": "soccer-afc.asian.cup-401872242",
+      "title": "AFC Asian Cup: Australia v Singapore",
+      "start": "2027-01-09T10:30:00+00:00",
+      "end": "2027-01-09T13:00:00+00:00",
+      "description": "Australia viewing: Australian broadcaster to be confirmed",
+      "location": ""
     }
   ],
-  "generated_at": "2026-11-25T04:11:08.274266+00:00",
+  "generated_at": "2026-11-26T03:34:13.867128+00:00",
   "coverage": {
-    "NHL Pittsburgh": 14,
+    "NHL Pittsburgh": 13,
     "MLB Cleveland": 0,
     "Hawthorn AFL/AFLW": 0,
     "UCI cycling championships": 2,
     "World Marathon Majors": 0,
     "Major athletics": 0,
-    "Endurance ultras": 0,
+    "Endurance ultras": 1,
     "Confirmed internationals": 0,
     "Men road feed diagnostics": {
       "feed_events": 289,
@@ -239,7 +239,7 @@
     "Football eng.1": 6,
     "Football eng.fa": 0,
     "Football eng.league_cup": 0,
-    "Football uefa.champions": 2,
+    "Football uefa.champions": 1,
     "Football uefa.europa": 0,
     "Football uefa.europa.conf": 0,
     "Football usa.1": 2,
@@ -253,6 +253,6 @@
     "Football fifa.worldq.afc": 0,
     "Football fifa.friendly": 1,
     "Football fifa.world": 0,
-    "Football afc.asian.cup": 0
+    "Football afc.asian.cup": 1
   }
 }
